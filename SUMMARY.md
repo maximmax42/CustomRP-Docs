@@ -3,4 +3,3 @@
 * [🏠 Home](README.md)
 * [🛠 Setting Up](setting-up.md)
 * [❓ FAQ](faq.md)
-* [Test](test.md)
