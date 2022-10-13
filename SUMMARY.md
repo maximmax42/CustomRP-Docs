@@ -1,5 +1,5 @@
 # Table of contents
 
 * [🏠 Главная](README.md)
-* [🛠 Настройка](nastroika.md)
+* [🛠 Настройка](setting-up.md)
 * [❓ FAQ](faq.md)
