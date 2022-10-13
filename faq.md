@@ -44,7 +44,7 @@ Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, sta
 
 ### The app has connected, but I don't see the status in my profile.
 
-Make sure you have enabled activity status in Discord settings:&#x20;
+Make sure you have enabled activity status in Discord settings:
 
 <figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,4 +64,4 @@ Perhaps you have inserted a long string of fancy text (or text in a language tha
 
 If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message me on Discord (maximmax42#5572) or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message maximmax42#5572 on Discord or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
