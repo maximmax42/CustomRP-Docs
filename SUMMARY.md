@@ -1,5 +1,5 @@
-# Table of contents
+# Tabla de Contenidos
 
-* [🏠 Home](README.md)
-* [🛠 Setting Up](setting-up.md)
-* [❓ FAQ](faq.md)
+* [🏠 Inicio](README.md)
+* [🛠 Configurando](setting-up.md)
+* [❓ Preguntas Más Frecuentes](faq.md)
