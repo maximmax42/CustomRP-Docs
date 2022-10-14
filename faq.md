@@ -36,7 +36,7 @@ Przyciski nie będą działać na kliencie stacjonarnym, z którym korzystasz z 
 
 ### Zainstalowałem CustomRP, ale nie uruchamia się.
 
-Jest to najprawdopodobniej wina twojego antywirusa uniemożliwiającego uruchomienie aplikacji. Dodaj folder `%appdata%CustomRP` do wyjątków.
+Jest to najprawdopodobniej wina twojego antywirusa uniemożliwiającego uruchomienie aplikacji. Dodaj folder `%appdata%\CustomRP` do wyjątków.
 
 ### Zainstalowałem CustomRP, zezwoliłem na analitykę i aplikacja już nie działa.
 
@@ -58,7 +58,7 @@ Czasami jest to spowodowane przez BetterDiscord. Jeśli masz go zainstalowanego,
 
 ### Aplikacja działała wcześniej, ale potem się zawiesiła, a teraz w ogóle się nie uruchamia.
 
-Być może wstawiłeś długi ciąg losowego tekstu (lub tekst w języku który nie używa liter łacińskich) w jakimś polu i to spowodowało awarię aplikacji. Aby to naprawić, kliknij klawisz Win+R, wpisz `%localappdata%` i usuń lub zmień nazwę folderów z CustomRP w nazwie, a następnie uruchom aplikację. Pamiętaj że to resetuje aplikację całkowicie.
+Być może wstawiłeś długi ciąg losowego tekstu (lub tekst w języku który nie używa liter łacińskich) w jakimś polu i to spowodowało awarię aplikacji. Aby to naprawić, kliknij klawisz Win+R, wpisz `%localappdata%\maximmax42` i usuń lub zmień nazwę folderów z CustomRP w nazwie, a następnie uruchom aplikację. Pamiętaj że to resetuje aplikację całkowicie.
 
 ### Aplikacja ciągle się zawiesza podczas aktualizacji/próby połączenia/itp.
 

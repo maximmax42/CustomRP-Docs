@@ -59,5 +59,4 @@ Jeśli używasz 3 lub więcej kont jednocześnie, to... po co? Ale też jeśli w
 
 * Jeśli nie chcesz ustawiać małego lub dużego obrazu, pozostaw wszystkie powiązane pola w programie puste.
 * Jeśli duży obraz nie jest ustawiony, ustawienia małego obrazu będą ignorowane.
-*** Przetłumaczono za pomocą www.DeepL.com/Translator (wersja darmowa) ***
 
