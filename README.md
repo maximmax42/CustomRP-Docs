@@ -1,7 +1,5 @@
 # 🏠 Home
 
-**IN PROCESS OF TRANSLATION**
-
 Welcome to the CustomRP docs!
 
 Please refer to [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) link to download the app or to [Setting Up](setting-up.md) page for how to set the manager up.
