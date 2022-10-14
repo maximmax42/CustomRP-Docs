@@ -1,58 +1,57 @@
 ---
-description: RTFM
+description: LVM
 ---
 
-# 🛠 Setting Up
+# 🛠 Järjestely
 
-If you experience any errors, check out [FAQ](faq.md).
+Jos koet ongelmia, katso [UKK](faq.md#questions).
 
-Before setting up, make sure you have enabled activity status in Discord settings:
+Ennen kuin aloitat, tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä.
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-## Setup process
+## Järjestely prosessi
 
-* Go to https://discord.com/developers/applications/.
-* Click **New Application** in the upper right corner.
+* Mene https://discord.com/developers/applications/.
+* Paina **New Application** oikeassa yläkulmassa.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
-* Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**. If done correctly, your status in Discord should now say "Playing **\[name of the app]**".
-  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. It will be seen in the profile popup though.
+* Valitse applikaation nimi, se esiintyy "Pelaa Peliä" jälkeen; paina **Create**.
+* Kopioi **Application ID** ja liitä it se customRP'n **ID** Kohtaan ja paina **Yhdistä**. Jos tehty oikein, Toimintasi Discordissa pitäisi nyt lukea "Pelaa: **\[nimi jonka valitsit]**".
+  *   Huomaa: Jos sinulla on mukautettu tila (Se jossa on emoji), se tulee CustomRP tilan päälle. Mutta näkyy profiilin toiminta kohdassa.
 
-![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
+      <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+* Applikaatiosi sivulla, mene Rich Presence -> Art Assets ja lisää ainakin yksi kuva Rich Presencen alle. Jos haluat käyttää niitä CustomRP'ssä, Siellä on kätevä Lähetä Tiedostoja nappi Tiedosto valikossa. (Voit myös käyttää Ctrl+U) joka vie sinut sinne there jos ID kohtasi on aseteltu oikein.
+  * Vaihtoehtoisesti, voit myös vain liittää URL'n kuvaan **Key** Kohdassa
+  * Muista: Vaikka voitkin nimetä kohdan 999 symbooliin asti, API Hyväksyy nimiä jossa on vain 256 symboolia maksimissaan.
+* Navigoi Visualizer sivulle asetellaaksi kohdat; **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. Kaikki näistä on valinnaisia.
+* Kun olet löytänyt asetuksen josta tykkäät, Kopioi kaikki kohdat CustomRP's vastaaviin kohtiin.
+  * Vihje: Voit laittaa hiiresi melkein minkä vaan päälle (mukaan lukien **Details**) ja se antaa sinulle ohjeita!
+* Jos haluat asetella painikkeet myös, täytä molemmat Text ja URL kentät.
+  * Muista: Kun painat omia painikkeitasi, ne eivät toimi, mutta älä huoli!, Ne toimii muille, tämä on ongelma Discordin puolella.
+* Paina **Päivitä läsnäoloa** (tai **Yhdistä** jos et ole jo yhdistänyt.)
+* Onnittelut, olet mahtava!
 
-* On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets if you want to use them. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-  * Alternatively, you can just insert a URL to the image in the **Key** field.
-  * Note: While you can name your asset with any name up to 999 symbols, the API will only accept names with 256 symbols max.
-* Navigate to Visualizer page to set up fields **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. All of those are optional.
-* After you've found the setup that pleases you, copy the values into CustomRP's corresponding fields.
-  * Tip: You can hover over almost any control in the app (including labels line **Details**) and it'll give you a tooltip!
-* If you want to set up buttons as well, fill in both Text and URL fields.
-  * Note: When you will click on the buttons in your own presence, they will not work, but don't worry, they will work for everyone else. It's a problem on Discord's side.
-* Hit **Update Presence** (or **Connect** if you aren't already connected).
-* Congratulations, you're wonderful!
+### Käytän enemmän kuin yhtä Discord ohjelmaa. Mitä teen?
 
-### I use more than one Discord client, what do I do?
+Jos käytät enemmän kuin yhtä Discord ohjelmaa, ja toivoisit että tilasi näkyisi jollain muulla ohjelmalla kun se jonka CustomRP automaattisesti valitsi, paina **Disconnect** ja pidä pohjassa **Ctrl + Shift** nappeja näppäimistölläsi ja paina **Yhdistä**. Sovellus jossa on numero söyttö tulee näkymään, laita numero 1, sulje, ja paina **Yhdistä**, ilman Ctrl+Shift. Jos se oli väärä tili uudestaan, yritä numero 0, sitten 2 ja jatka numero 9 asti.
 
-If you have more than one Discord client and you wish your presence to show up on a different account from the one app chose automatically, please press **Disconnect**, then hold Ctrl+Shift keys on your keyboard and press **Connect**. A window with a number input will pop up, put a number 1, close the window, and press **Connect** again, without Ctrl+Shift. In case it's a wrong account again, try number 0, then 2 and so on up until 9.
+Muista että jos sinun monta Discord ohjelmaa käynnistyy tietokoneesi mukana, pipe numero valittu joka ohjelmaan ei välttämättä pysy samana uudelleen käynnistyksen jälkeen. Ja voi vaihtua sen mukaan mikä ohjelmista käynnistyi ensin. Varoaksesi tätä, voit joko käynnistää monta ohjelmaa manuaalisesti, tai käyttää Windows Task Scheduleria jotta voit hidastaa tiettyjen käynnistysaikoja.
 
-Please note that if you have multiple Discord clients run on startup, pipe number assigned to each client might not be persistent from boot to boot and can change depending on which client started first. To prevent that, you can either start additional clients manually, or use Windows Task Scheduler to delay the startup of the clients.
+Jos sinulla on 2 tiliä jota käytät samaan aikaan ja haluat jokaisen niistä käyttämään eri tilaa, tee nämä askeleet;
 
-If you have 2 accounts that you use at the same time and want for each of them to have a different presence, then follow these steps:
+* Asettele oma pää-tilisi ensin näillä ohjeilla.
+* Lataa uusin **portable (.zip)** versio CustomRP'stä (joko  [nettisivulta](https://www.customrp.xyz) tai [GitHub julkaisu sivulta](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) ja pura se minne vaan.
+  * Tämä vain toimii versioilla 1.16 ja vanhemmilla.
+* Avaa `Start Second Instance.bat` tai tee oikotie CustomRP.exe en argumentilla `--second-instance` (tai `-2`).
+* Asettele sovellus samalla tavalla mitä teit pää-instanssilla.
+  * Vihje: Jos sinulla on jo esiasetus jota haluat käyttää toisella instanssillasi, voit editoida .bat tiedostoa tai oikotietäsi to sisällyttämään reitin esiasetukseesi. Example: `CustomRP.exe -2 "C:\Joku Kansio\esiasetuksesi.crp"` (sitaatit reitin ulkopuolella on tarvittuja ijos reitissä on välilyöntejä).
+* Ennen kuin yhdistät, vaihda pipe kuten kuvattu aiemmin ja yhdistä.
 
-* Set up your main account first with the instructions above.
-* Grab the latest **portable (.zip)** version of CustomRP (either from [website](https://www.customrp.xyz) or [GitHub releases page](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) and unpack it anywhere.
-  * This only works with versions 1.16 and older.
-* Open `Start Second Instance.bat` or create a shortcut to CustomRP.exe with an argument `--second-instance` (or `-2`).
-* Set up the program the same way you did your main instance.
-  * Tip: If you already have a preset you would want to use with your second instance, you can edit the bat file or the shortcut to include the path to the preset. Example: `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (quotation marks around the path are necessary if the path has spaces in it).
-* Before connecting, change the pipe as described earlier and connect.
+Jos käytät 3 tai enemmän tiliä samaan aikaan, sitten... miksi? Mutta jos tarpeeksi teistä valittaa tarpeeksi, mahdollistan sen.
 
-If you use 3 or more accounts at the same time, then... why? But also if enough of you will nag me, I'll add support for using more instances.
+## Muistiinpanot
 
-## Notes
-
-* If you don't want to set up small or large image, leave all related fields in the program blank.
-* If large image is not set, small image settings will be ignored.
+* Jos et halua kuvia, jätä kaikki kuvakentät tyhjäksi.
+* Jos isoa kuvaa ei ole, pientä kuvaa ei myöskään tule näkymään.

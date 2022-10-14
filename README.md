@@ -1,7 +1,7 @@
-# 🏠 Home
+# 🏠 Aloitus
 
-Welcome to the CustomRP docs!
+Tervetuloa CustomRP asiakirjaan!
 
-Please refer to [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) link to download the app or to [Setting Up](setting-up.md) page for how to set the manager up.
+Katso [Julkaisut ](https://github.com/maximmax42/Discord-CustomRP/releases)Asentaaksesi, tai [Järjestely](setting-up.md) sivu oppiaksesi miten käyttää sovellusta.
 
-Check out [FAQ](faq.md) page for answers to frequent questions and troubleshooting steps for common problems.
+Katso [UKK](faq.md#questions) sivu vastauksille useisiin kysyttyihin kysymyksiin ja vianetsintä askeleet yleisiin ongelmiin.

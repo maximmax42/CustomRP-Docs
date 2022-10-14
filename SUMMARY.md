@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-* [🛠 Setting Up](setting-up.md)
-* [❓ FAQ](faq.md)
-* [⭐ Credits](credits.md)
+* [🏠 Aloitus](README.md)
+* [🛠 Järjestely](setting-up.md)
+* [❓ UKK](faq.md)
+* [⭐ Kunniat](kunniat.md)

@@ -1,67 +1,67 @@
 ---
-description: Frequently asked questions
+description: Usein Kysyttyjä Kysymyksiä
 ---
 
-# ❓ FAQ
+# ❓ UKK
 
-## Questions
+## Kysymyksiä
 
-### Can I add more than 2 buttons?
+### Voinko lisätä yli kaksi painiketta?
 
-No, it's a limitation of Discord.
+Ei, Discord ei anna sinun tehdä näin.
 
-### Can I use a different type of activity (e.g. listening, watching, streaming)?
+### Voinko käyttää erilaista tila tyyppiä (esim Kuuntelee, katsoo, striimaa?
 
-No, it's also a Discord limitation.
+Ei, Discord ei anna sinun tehdä tätä myöskään.
 
-### Why if I set a timestamp couple days in the future, Discord only shows how many hours left?
+### Miksi jos teen ajasta monta päivää tulevaisuuteen, Discord vain näyttää monta tuntia on jäljellä?
 
-You guessed it, it's also a Discord limitation.
+Arvasit, Discord ei anna sinun tehdä sitäkään.
 
-### Will there be Linux/Mac version?
+### Tuleeko Linux/Mac versiota?
 
-The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
+Sovellus on tehty ohjelmakirjostolla pelkästään Windowsille, joten Linux tai Mac versio tarkoittaa koko sovelluksen uudelleen koodamista toisella koodauskielellä. Tästä en ole vielä ajatellut.
 
-### A window called "Pipe" opened up for some reason, what is this?
+### "Pipe" sovellus aukesi jostakin syystä, mikä tämä on?
 
-It opened up because you pressed Ctrl+Shift and clicked Connect button (or Ctrl and Connect button or Reconnect in tray icon menu on older versions). Leave it at -1 and close it. It's used for situations when you have more than one Discord client running at the same time. Changing pipe number effectively chooses which client you want your presence to be in.
+Se aukesi koska painoit Ctrl+Shift kun painoit yhdistä painiketta. (Tai Ctrl ja yhdistä painiketta tai Yhdistä uudelleen oikeassa alakulmassa olevassa CustomRP'ssä). Jätä se -1 ja sulje se. [Mitä tämä tekee](faq.md#voinko-lisaetae-yli-kaksi-painiketta)?
 
-## Troubleshooting
+## Vianetsintä
 
-Before trying anything, make sure you are on the latest version of CustomRP!
+Ennen kuin yrität mitään, tarkista että käytät CustomRP'n uusinta versiota!
 
-### When I click on presence buttons in my profile, they don't work.
+### Kun painan painikkeita tilassani, ne ei toimi.
 
-Buttons will not work for you on the desktop client you're using CustomRP with, it's a Discord's quirk. You can test your buttons from mobile or web client, or just ask someone else instead.
+Painikkeet eivät toimi samalla Discord ohjelmalla johon olet yhdistänyt CustomRP'n, ne kyllä toimii ja voit tarkistaa sen käyttämällä toista Discord ohjelmaa tai Discordin nettisivu versiota.
 
-### I installed CustomRP but it doesn't start.
+### Asensin CustomRP'n ja se ei käynnisty.
 
-This is most likely your antivirus preventing the app from launching. Add `%appdata%\CustomRP` folder to exceptions.
+Tämä yleensä tarkoittaa että antiviiruksesi estää sitä. Lisää `%appdata%\CustomRP` kansio poikkeukseesi.
 
-### I installed CustomRP, allowed analytics and the app doesn't work anymore.
+### Asensin CustomRP'n, sallin analyytikat ja sovellus ei toimi enään.
 
-Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, start the app again and don't allow analytics.
+Tapa sovellus tehtävänhlalinnassa, poista `%localappdata%\maximmax42` kansio, käynnistä sovellus uudestaan ja älä salli analyytikoita.
 
-### The app has connected, but I don't see the status in my profile.
+### Sovellus on yhdistetty, mutta en nää tilaa Discord tililläni.
 
-Make sure you have enabled activity status in Discord settings:
+Tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä. &#x20;
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### The app was working, but now it's connecting indefinitely.
+### Sovellus toimi ennen, mutta nyt se yhdistää loputtomiin.
 
-You might have gotten a timeout from Discord because of connecting/changing presence a lot. Disconnect, wait 5-10 minutes, try to connect again. Restarting Discord might help too.
+Sinä ehkä sait aikakatkaisun Discordilta sen takia että yhdistit ja katkaisit likaa, odota 5-10 minuuttia, ja yritä uudestaan. Discordin uudelleenkäynnistäminen voi myös auttaa.
 
-### The app says "Wrong ID?"/"Is Discord running?" or connects indefinitely even though I'm sure I did everything right and Discord is running.
+### Sovellus sanoo "väärä ID?/Onko Discord käynnissä?" Tai yhdistää loputtomiin vaikka olen varma että tein kaiken oikein ja Discord on käynnissä.
 
-Sometimes this is caused by BetterDiscord. If you have it installed, uninstall it, let CustomRP connect to Discord at least once and then install BD back. If you don't, try running CustomRP as an administrator. If that doesn't help, try adding `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to (and maybe Discord) to firewall/antivirus exceptions, and then restart your whole PC (you could try restarting just the Discord and CustomRP, but in 95% of the cases it doesn't work). Other thing you can try is to temporarily quit all the Discord clients but your main one. If that doesn't help, I never could figure out what causes this, sorry.
+BetterDiscord usein tekee tämän. Jos sinulla on se, poista se, anna CustomRP'n yhdistää Discordiin ainakin kerran, ja asenna BetterDiscord uusiksi. Jos et, käynnistä CustomRP järjestelmänvalvojana. Jos se ei auta, lisää  `%appdata%\CustomRP` tai, jos käytät portable-versiota, kansio johon pursit BetterDiscordin (ja ehkä Discord) palomuurin tai antiviiruksesi poikkeuksiin, ja käynnistä tietokoneesi uudestaan (voit myös yrittää käynnistää vain Discordin ja CustomRP'n uudelleen, Mutta yli 95% ajasta se ei toimi. Voit myös yrittää sulkea kaikki Discord ohjelmasi paitsi pää versiosi. Jos se ei auta, minulla ei ole mitään hajua miten korjata sitä, anteeksi.
 
-### The app was working before, but then it crashed and now it doesn't launch at all.
+### Sovellus toimi ennen, sammui virheen takia ja ei enään käynnisty.
 
-Perhaps you have inserted a long string of fancy text (or text in a language that uses non-Latin letters) in a field and that crashed the app. To fix this, press Win+R, type `%localappdata%\maximmax42` and delete or rename folders with CustomRP in the name, then start the app. Note that this resets the app completely.
+Ehkä olet laittanut paljon tekstiä hienolla fontilla (tai kielessä joka ei ole latitan kirjaimissa {äö myös}) kohtaan ja se aiheutti tämän. Korjaattaaksesi, paina win+r, kirjoita `%localappdata%\maximmax42` ja poista tai vaihda kansioiden nimiä jossa on CustomRP niiden nimiss, ja käynnistä CustomRP. Huomaa että tämä poistaa kaiken jota kirjoitit.
 
-### The app keeps crashing when updating/trying to connect/etc.
+### Sovellus sammuu kun yhdistän, päivitän jotain, jne.
 
-If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
+Jos voit käynnistää sovelluksen, ja saat virheraportin; `System.IO.FileNotFoundException: Could not load file or assembly...`, käynnistä sovellus uudestaan
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message me on Discord (maximmax42#5572) or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Jos et löydä vastausta kysymykseesi, lähetä viesti `#support` kanavalle [CustomRP Discordissa](https://www.customrp.xyz/discordserver), tai laita yksityisviestiä jes#8137, tai (ei englantia puhuva) maximmax#5572 or [avaa ongelma](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
