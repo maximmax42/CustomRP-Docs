@@ -1,3 +1,3 @@
-# ⭐ Credits
+# ⭐ Kredyty
 
-Translated by \[put your name here].
+Przetłumaczone przez Liso.
