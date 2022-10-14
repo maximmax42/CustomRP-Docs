@@ -46,7 +46,7 @@ Wymuś zamknięcie aplikacji w Menedżerze zadań, usuń folder `%localappdata%\
 
 Upewnij się że masz włączony status aktywności w ustawieniach Discorda:
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/79161805/195936167-0f5cb6b3-8cb6-4474-97d7-a18c301b9e7e.png" alt=""><figcaption></figcaption></figure>
 
 ### Aplikacja działała, ale teraz łączy się w nieskończoność.
 
