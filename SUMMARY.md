@@ -1,6 +1,6 @@
-# Table of contents
+# Spis treści
 
-* [🏠 Home](README.md)
-* [🛠 Setting Up](setting-up.md)
+* [🏠 Główna](README.md)
+* [🛠 Ustawienie](setting-up.md)
 * [❓ FAQ](faq.md)
-* [⭐ Credits](credits.md)
+* [⭐ Podziękowania](credits.md)
