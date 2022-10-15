@@ -42,7 +42,7 @@ Höchstwahrscheinlich verhindert dein Antivirusprogramm den Start der Anwendung.
 
 Beende die App im Task Manager, Lösche den `%localappdata%\maximmax42` Ordner, starte die App neu und erlaube die Analytiks nicht.
 
-### Die App hat sich verbunden, aber Ich sehe den Status nicht in meinem Profil
+### Die App hat sich verbunden, aber Ich sehe den Status nicht in meinem Profil.
 
 Stelle sicher, dass du den Aktivitätsstatus in den Discord-Einstellungen aktiviert hast:
 
@@ -64,4 +64,4 @@ Vielleicht hast du einen langen Text (oder einen Text in einer Sprache, die nich
 
 Wenn du in der Lage bist, die Anwendung zu starten und einen Absturzbericht zu erhalten, und es heißt `System.IO.FileNotFoundException: Could not load file or assembly...`, installiere die Anwendung bitte neu.
 
-Wenn du keine Antwort auf deine Frage/dein Problem findest, senden eine Nachricht in den `#Support`-Channel auf dem [CustomRP Discord Server] (https://www.customrp.xyz/discordserver), oder schreibe mir eine Direkt-Nachricht auf Discord (maximmax42#5572) oder [open an issue] (https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Wenn du keine Antwort auf deine Frage/dein Problem findest, senden eine Nachricht in den `#Support`-Channel auf dem [CustomRP Discord Server](https://www.customrp.xyz/discordserver), oder schreibe mir eine Direkt-Nachricht auf Discord (maximmax42#5572) oder [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
