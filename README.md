@@ -1,7 +1,7 @@
-# 🏠 Home
+# 🏠 Acceuil
 
-Welcome to the CustomRP docs!
+Bienvenue sue le wiki de CustomRP!
 
-Please refer to [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) link to download the app or to [Setting Up](setting-up.md) page for how to set the manager up.
+Veuillez vous référer aux [Sorties](https://github.com/maximmax42/Discord-CustomRP/releases) pour télécharger le logiciel, ou sur [Mise en Place](setting-up.md) afin de préparer CustomRP.
 
-Check out [FAQ](faq.md) page for answers to frequent questions and troubleshooting steps for common problems.
+Voir [FAQ](faq.md) pour avoir des réponses aux question fréquentes et problèmes communs.
