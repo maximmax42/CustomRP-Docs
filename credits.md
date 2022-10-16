@@ -1,3 +1,3 @@
 # ⭐ Credits
 
-Translated by \[put your name here].
+Traduit par Aetheria.
