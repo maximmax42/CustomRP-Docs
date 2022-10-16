@@ -46,7 +46,7 @@ Tapa sovellus tehtävänhlalinnassa, poista `%localappdata%\maximmax42` kansio, 
 
 Tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä. &#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/settings.png" alt=""><figcaption></figcaption></figure>
 
 ### Sovellus toimi ennen, mutta nyt se yhdistää loputtomiin.
 

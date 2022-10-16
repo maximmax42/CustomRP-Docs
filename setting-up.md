@@ -8,7 +8,7 @@ Jos koet ongelmia, katso [UKK](faq.md#questions).
 
 Ennen kuin aloitat, tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/settings.png" alt=""><figcaption></figcaption></figure>
 
 ## Järjestely prosessi
 
@@ -19,9 +19,10 @@ Ennen kuin aloitat, tarkista että olet valtuuttanut Discordin näyttämään to
 
 * Valitse applikaation nimi, se esiintyy "Pelaa Peliä" jälkeen; paina **Create**.
 * Kopioi **Application ID** ja liitä se customRP'n **ID** Kohtaan ja paina **Yhdistä**. Jos tehty oikein, Toimintasi Discordissa pitäisi nyt lukea "Pelaa: **\[nimi jonka valitsit {esim; 2022}]**".
-  *   Huomaa: Jos sinulla on mukautettu tila (se jossa on emoji), se tulee CustomRP tilan päälle. Mutta näkyy profiilin toiminta kohdassa.
+  * Huomaa: Jos sinulla on mukautettu tila (se jossa on emoji), se tulee CustomRP tilan päälle. Mutta näkyy profiilin toiminta kohdassa.
 
-      <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/app.png" alt=""><figcaption></figcaption></figure>
+
 * Applikaatiosi sivulla, mene Rich Presence -> Art Assets ja lisää ainakin yksi kuva Rich Preseesenssin alle. Jos haluat käyttää niitä CustomRP'ssä, Siellä on kätevä Lähetä Tiedostoja nappi **Tiedosto** valikossa. (Voit myös käyttää Ctrl+U) joka vie sinut sinne jos ID kohtasi on aseteltu oikein.
   * Vaihtoehtoisesti, voit myös vain liittää URL'n kuvaan **Key** Kohdassa
   * Muista: Vaikka voitkin nimetä kohdan 999 symbooliin asti, API Hyväksyy nimiä jossa on vain 256 symboolia maksimissaan.
