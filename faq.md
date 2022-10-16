@@ -1,67 +1,68 @@
 ---
-description: Frequently asked questions
+description: Question posées fréquement
 ---
 
 # ❓ FAQ
 
 ## Questions
 
-### Can I add more than 2 buttons?
+### Puis-je ajouter plus de 2 boutons ?
 
-No, it's a limitation of Discord.
+Non, c'est une limite instaurée par Discord.
 
-### Can I use a different type of activity (e.g. listening, watching, streaming)?
+### Puis-je utiliser un autre type d'activité (Ex: écoute, regarde, diffuse) ?
 
-No, it's also a Discord limitation.
+Non, c'est aussi une limite instaurée par Discord.
 
-### Why if I set a timestamp couple days in the future, Discord only shows how many hours left?
+### Pourquoi si je définis un horodatage quelques jours dans le futur, Discord n'affiche que le nombre d'heures restantes ?
 
-You guessed it, it's also a Discord limitation.
+Vous l'avez deviné, c'est encore une limite instaurée par Dicord.
 
-### Will there be Linux/Mac version?
+### Y aura-t-il une version Linux/Mac ?
 
-The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
+L'application est construite à l'aide d'une bibliothèque Windows uniquement. Par conséquent, la prise en charge de Linux et Mac signifierait la réécriture de l'application entière dans une bibliothèque/langage de codage différent. Ce que je ne prévois pas encore.
 
-### A window called "Pipe" opened up for some reason, what is this?
+### Une fenêtre appelée "Pipe" s'est ouverte pour une raison quelconque, qu'est-ce que c'est ?
 
-It opened up because you pressed Ctrl+Shift and clicked Connect button (or Ctrl and Connect button or Reconnect in tray icon menu on older versions). Leave it at -1 and close it. It's used for situations when you have more than one Discord client running at the same time. Changing pipe number effectively chooses which client you want your presence to be in.
+Il s'est ouvert car vous avez appuyé sur Ctrl + Maj et cliqué sur le bouton Connecter (ou sur le bouton Ctrl et Connecter ou Reconnecter dans le menu de l'icône de la barre d'état sur les anciennes versions). Laissez-le à -1 et fermez-le. Il est utilisé dans les situations où plusieurs clients Discord s'exécutent en même temps. Changer le numéro de canal choisit efficacement le client dans lequel vous souhaitez que votre présence soit.
 
-## Troubleshooting
+## Dépannage
 
-Before trying anything, make sure you are on the latest version of CustomRP!
+Avant d'essayer quoi que ce soit, assurez-vous d'être sur la dernière version de CustomRP !
 
-### When I click on presence buttons in my profile, they don't work.
+### Quand je clique sur les boutons de présence dans mon profil, ils ne fonctionnent pas.
 
-Buttons will not work for you on the desktop client you're using CustomRP with, it's a Discord's quirk. You can test your buttons from mobile or web client, or just ask someone else instead.
+Les boutons ne fonctionneront pas pour vous sur le bureau avec lequel vous utilisez CustomRP, c'est une bizarrerie de Discord. Vous pouvez tester vos boutons à partir d'un téléphone ou Web, ou simplement demandez à quelqu'un d'autre à la place.
 
-### I installed CustomRP but it doesn't start.
+### J'ai installé CustomRP mais il ne démarre pas.
 
-This is most likely your antivirus preventing the app from launching. Add `%appdata%\CustomRP` folder to exceptions.
+C'est probablement votre antivirus qui empêche le lancement de l'application. Ajoutez le dossier `%appdata%\CustomRP` aux exceptions.
 
-### I installed CustomRP, allowed analytics and the app doesn't work anymore.
+### J'ai installé CustomRP, autorisé les analyses et l'application ne fonctionne plus.
 
-Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, start the app again and don't allow analytics.
+Arrêtez l'application dans le gestionnaire de tâches, supprimez le dossier `%localappdata%\maximmax42`, redémarrez l'application et n'autorisez pas les analyses.
 
-### The app has connected, but I don't see the status in my profile.
+### L'application s'est connectée, mais je ne vois pas l'état dans mon profil
 
-Make sure you have enabled activity status in Discord settings:
+Assurez-vous d'avoir activé le statut d'activité dans les paramètres Discord :
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
 
-### The app was working, but now it's connecting indefinitely.
+### L'application fonctionnait, mais maintenant elle se connecte indéfiniment.
 
-You might have gotten a timeout from Discord because of connecting/changing presence a lot. Disconnect, wait 5-10 minutes, try to connect again. Restarting Discord might help too.
+Vous avez peut-être obtenu un délai d'attente de Discord en raison de la connexion/du changement de présence. Déconnectez-vous, attendez 5 à 10 minutes, essayez de vous reconnecter. Redémarrer Discord pourrait également aider.
 
-### The app says "Wrong ID?"/"Is Discord running?" or connects indefinitely even though I'm sure I did everything right and Discord is running.
+### L'application indique "Mauvaise ID ?"/"Est-ce que Discord est en cours d'exécution ?" ou se connecte indéfiniment même si je suis sûr d'avoir tout fait correctement et que Discord fonctionne.
 
-Sometimes this is caused by BetterDiscord. If you have it installed, uninstall it, let CustomRP connect to Discord at least once and then install BD back. If you don't, try running CustomRP as an administrator. If that doesn't help, try adding `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to (and maybe Discord) to firewall/antivirus exceptions, and then restart your whole PC (you could try restarting just the Discord and CustomRP, but in 95% of the cases it doesn't work). Other thing you can try is to temporarily quit all the Discord clients but your main one. If that doesn't help, I never could figure out what causes this, sorry.
+Parfois, cela est causé par BetterDiscord. Si vous l'avez installé, désinstallez-le, laissez CustomRP se connecter à Discord au moins une fois, puis réinstallez BD. Si ce n'est pas le cas, essayez d'exécuter CustomRP en tant qu'administrateur. Si cela ne vous aide pas, essayez d'ajouter `%appdata%\CustomRP` ou, si vous utilisez une version portable, le dossier dans lequel vous avez extrait CustomRP (et peut-être Discord) aux exceptions de pare-feu/antivirus, puis redémarrez votre PC (vous pouvez essayer de redémarrer uniquement Discord et CustomRP, mais dans 95% des cas, cela ne fonctionne pas). Une autre chose que vous pouvez essayer est de quitter temporairement tous les clients Discord sauf votre principal. Si cela ne vous aide pas, je n'ai jamais pu comprendre ce qui cause cela, désolé.
 
-### The app was working before, but then it crashed and now it doesn't launch at all.
 
-Perhaps you have inserted a long string of fancy text (or text in a language that uses non-Latin letters) in a field and that crashed the app. To fix this, press Win+R, type `%localappdata%\maximmax42` and delete or rename folders with CustomRP in the name, then start the app. Note that this resets the app completely.
+### L'application fonctionnait auparavant, mais maintenant elle plante et elle ne se lance plus du tout.
 
-### The app keeps crashing when updating/trying to connect/etc.
+Vous avez peut-être inséré une longue chaîne de texte fantaisiste (ou du texte dans une langue qui utilise des lettres non latines) dans un champ et cela a planté l'application. Pour résoudre ce problème, appuyez sur Win + R, tapez `% localappdata% \ maximmax42` et supprimez ou renommez les dossiers avec CustomRP dans le nom, puis démarrez l'application. Notez que cela réinitialise complètement l'application.
 
-If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
+### L'application n'arrête pas de planter lors de la mise à jour/de la tentative de connexion/etc.
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message me on Discord (maximmax42#5572) or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Si vous parvenez à lancer l'application et à obtenir un rapport de plantage, et qu'il indique `System.IO.FileNotFoundException: Could not load file or assembly...`, veuillez réinstaller l'application.
+
+Si vous ne trouvez pas de réponse à votre question/problème, envoyez un message au salon `#support` sur le serveur Discord de [CustomRP](https://www.customrp.xyz/discordserver) ou bien envoyez un message à maximmax42#5572 sur Discord ou [Ouvrir un Sujet](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
