@@ -1,67 +1,67 @@
 ---
-description: Frequently asked questions
+description: 자주 묻는 질문 / 문제 해결
 ---
 
-# ❓ FAQ
+# ❓ 자주 묻는 질문 / 문제 해결
 
-## Questions
+## 자주 묻는 질문
 
-### Can I add more than 2 buttons?
+### 2개 이상의 버튼을 추가할 수 있나요?
 
-No, it's a limitation of Discord.
+안 됩니다, Discord의 최대치입니다.
 
-### Can I use a different type of activity (e.g. listening, watching, streaming)?
+### 다른 활동 (듣는 중, 보는 중, 방송 중)을 사용할 수 있나요?
 
-No, it's also a Discord limitation.
+안 됩니다, Discord의 한계입니다.
 
-### Why if I set a timestamp couple days in the future, Discord only shows how many hours left?
+### 왜 제가 미래의 타임스탬프를 설정하면, DIscord는 몇 시간이 남았는지만 보여주나요?
 
-You guessed it, it's also a Discord limitation.
+이번에도 역시, Discord의 한계입니다.
 
-### Will there be Linux/Mac version?
+### Linux/Mac을 지원할 예정인가요?
 
-The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
+이 앱은 Windows 전용 라이브러리를 사용하여 빌드되므로 Linux 및 Mac을 지원하는 것은 전체 앱을 다른 라이브러리/코딩 언어로 다시 작성하는 것을 의미하고, 이에 대한 계획은 아직 없습니다.
 
-### A window called "Pipe" opened up for some reason, what is this?
+### "Pipe"라는 창이 열렸는데, 이건 뭔가요?
 
-It opened up because you pressed Ctrl+Shift and clicked Connect button (or Ctrl and Connect button or Reconnect in tray icon menu on older versions). Leave it at -1 and close it. It's used for situations when you have more than one Discord client running at the same time. Changing pipe number effectively chooses which client you want your presence to be in.
+Ctrl+Shift와 Connect 버튼(또는 이전 버전의 트레이 아이콘 메뉴에서 Ctrl와 Connect 버튼 또는 Reconnect 버튼)을 눌렀기 때문에 열렸습니다. -1로 두고 닫으면 됩니다. 동시에 두 개 이상의 Discord 클라이언트가 실행 중인 상황에 사용됩니다. Pipe 번호를 변경하면 어떤 클라이언트에 있을지 효과적으로 선택할 수 있습니다.
 
-## Troubleshooting
+## 문제 해결
 
-Before trying anything, make sure you are on the latest version of CustomRP!
+무엇이든 시도하기 전에, 당신의 CustomRP이 최신 버전에 인지 확인하세요!
 
-### When I click on presence buttons in my profile, they don't work.
+### 프로필에 있는 활동 상태 버튼을 눌러도 작동하지 않아요.
 
-Buttons will not work for you on the desktop client you're using CustomRP with, it's a Discord's quirk. You can test your buttons from mobile or web client, or just ask someone else instead.
+CustomRP를 사용하는 PC 클라이언트에서는 버튼이 작동하지 않습니다. 이것은 Discord의 문제입니다. 모바일 또는 웹 클라이언트에서 버튼을 테스트하거나 다른 사람에게 대신 부탁하세요.
 
-### I installed CustomRP but it doesn't start.
+### CustomRP를 설치했지만 시작되지 않아요.
 
-This is most likely your antivirus preventing the app from launching. Add `%appdata%\CustomRP` folder to exceptions.
+아마 당신의 백신(안티바이러스) 프로그램이 실행을 막고 있는 것 같네요! `%appdata%\CustomRP` 폴더를 제외해주세요.
 
-### I installed CustomRP, allowed analytics and the app doesn't work anymore.
+### CustomRP를 설치하고, 정보 수집을 허용했는데 앱이 더 이상 작동하지 않습니다.
 
-Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, start the app again and don't allow analytics.
+작업 관리자에서 앱을 끝내고, `%localappdata%\maximmax42` 폴더를 삭제하고 다시 시작하고 정보 수집을 허용하지 마세요.
 
-### The app has connected, but I don't see the status in my profile.
+### 앱이 연결되었지만 프로필에 활동 상태가 표시되지 않습니다.
 
-Make sure you have enabled activity status in Discord settings:
+Discord 설정에서 활동 상태가 켜져 있는지 확인하세요:
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/55352400/195621738-25a1cf30-56ec-43f8-a016-c91994139b02.png" alt=""><figcaption></figcaption></figure>
 
-### The app was working, but now it's connecting indefinitely.
+### 앱은 작동하지만, 지금은 무한정 연결만 되고 있어요.
 
-You might have gotten a timeout from Discord because of connecting/changing presence a lot. Disconnect, wait 5-10 minutes, try to connect again. Restarting Discord might help too.
+활동 상태를 자주 연결/변경해서 디스코드에서 타임아웃을 받았을 수 있습니다. 연결을 끊고, 5-10분 동안 기다렸다가 다시 연결하세요. Discord를 다시 시작하는 것이 도움이 될 수도 있어요!
 
-### The app says "Wrong ID?"/"Is Discord running?" or connects indefinitely even though I'm sure I did everything right and Discord is running.
+### 앱에 "D가 잘못되었을 수 있음"/ "Discord가 실행 중인가요?"라고 표시되고 있어요. 또는 저는 모든 것을 제대로 했고 Discord가 실행 중이라고 확신하는데도 불구하고 무한정으로 연결되고 있어요.
 
-Sometimes this is caused by BetterDiscord. If you have it installed, uninstall it, let CustomRP connect to Discord at least once and then install BD back. If you don't, try running CustomRP as an administrator. If that doesn't help, try adding `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to (and maybe Discord) to firewall/antivirus exceptions, and then restart your whole PC (you could try restarting just the Discord and CustomRP, but in 95% of the cases it doesn't work). Other thing you can try is to temporarily quit all the Discord clients but your main one. If that doesn't help, I never could figure out what causes this, sorry.
+가끔 이것은 BetterDiscord에 의해 발생합니다. 설치된 경우 제거하고 CustomRP를 Discord에 적어도 한 번 이상 연결한 다음 BetterDiscord를 다시 설치하세요. 그렇지 하지 않을 경우, 관리자 권한으로 CustomRP를 실행해보세요. 도움이되지 않는 경우 `%appdata%\CustomRP`, 무설치 버전을 사용하는 경우 CustomRP의 압축을 푼 폴더 (그리고 아마도 Discord)를 방화벽/백신에서 제외하고 PC를 다시 시작하세요 (Discord와 CustomRP만 다시 시작하려고 시도 할 수도 있지만 95 %의 경우 작동하지 않습니다). 당신이 시도할 수 있는 다른 것은 임시로 주로 쓰는 Discord 클라이언트를 제외하고 모두 종료해보는 것이 있습니다. 만약 도움이 되지 않았다면, 전 무엇이 문제인지 모르겠네요. 죄송합니다.
 
-### The app was working before, but then it crashed and now it doesn't launch at all.
+### 앱이 원래 작동했었는데, 이제 앱이 중지되고 실행도 안돼요.
 
-Perhaps you have inserted a long string of fancy text (or text in a language that uses non-Latin letters) in a field and that crashed the app. To fix this, press Win+R, type `%localappdata%\maximmax42` and delete or rename folders with CustomRP in the name, then start the app. Note that this resets the app completely.
+아마 당신이 멋진 텍스트 (또는 라틴어가 아닌 문자를 사용하는 언어의 텍스트)의 긴 문자열을 필드에 넣고 앱이 중지되었을 것입니다. 이 문제를 해결하려면 Win + R을 누르고 `%localappdata%\maximmax42`를 입력하고 이름에 CustomRP이 포함된 폴더를 삭제하거나 이름을 변경한 다음 앱을 다시 시작하세요. 이렇게 하면 앱이 완전히 재설정됩니다.
 
-### The app keeps crashing when updating/trying to connect/etc.
+### 업데이트/연결 등을 시도할 때 앱이 계속 중지돼요.
 
-If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
+만약 앱을 실행할 수 있고 오류 보고를 얻을 수 있고, 오류 보고에 `System.IO.FileNotFoundException: Could not load file or assembly...`라고 적혀있으면, 앱을 다시 설치하시기 바랍니다.
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message me on Discord (maximmax42#5572) or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+만약 당신의 질문/문제에 대한 답을 찾지 못했다면, [CustomRP Discord 서버](https://www.customrp.xyz/discordserver)의 `#support` 채널에 메시지를 보내거나, 저에게 디스코드 메시지를 보내거나 (maximmax42#5572), [여기](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose)에 문제를 알려주세요.

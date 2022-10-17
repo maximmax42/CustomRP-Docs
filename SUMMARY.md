@@ -1,6 +1,5 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-* [🛠 Setting Up](setting-up.md)
-* [❓ FAQ](faq.md)
-* [⭐ Credits](credits.md)
+* [🏠 홈](README.md)
+* [🛠 시작하기](setting-up.md)
+* [❓ 자주 묻는 질문 / 문제 해결](faq.md)
