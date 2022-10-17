@@ -1,3 +1,3 @@
 # ⭐ Credits
 
-Translated by \[put your name here].
+Yeongaori 에 의해 변역됨.
