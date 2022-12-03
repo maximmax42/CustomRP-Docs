@@ -64,4 +64,4 @@ Ehkä olet laittanut paljon tekstiä hienolla fontilla (tai kielessä joka ei ol
 
 Jos voit käynnistää sovelluksen, ja saat virheraportin; `System.IO.FileNotFoundException: Could not load file or assembly...`, käynnistä sovellus uudestaan
 
-Jos et löydä vastausta kysymykseesi, lähetä viesti `#support` kanavalle [CustomRP Discordissa](https://www.customrp.xyz/discordserver), tai laita yksityisviestiä jes#8137, tai (ei englantia puhuva) maximmax#5572 or [avaa ongelma](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Jos et löydä vastausta kysymykseesi, lähetä viesti `#support` kanavalle [CustomRP Discordissa](https://www.customrp.xyz/discordserver), tai laita yksityisviestiä jes#8137'lle, tai (ei englantia puhuva) maximmax42#5572 tai [avaa ongelma](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
