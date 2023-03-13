@@ -24,7 +24,7 @@ Before setting up, make sure you have enabled activity status in Discord setting
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
 * On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets if you want to use them. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-  * Alternatively, you can just insert a URL to the image in the **Key** field.
+  * Alternatively, you can just insert a direct link to the image into the **Key** field.
   * Note: While you can name your asset with any name up to 999 symbols, the API will only accept names with 256 symbols max.
 * Navigate to Visualizer page to set up fields **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. All of those are optional.
 * After you've found the setup that pleases you, copy the values into CustomRP's corresponding fields.
