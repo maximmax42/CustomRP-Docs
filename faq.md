@@ -1,69 +1,69 @@
 ---
-description: Frequently asked questions
+description: Întrebări frecvente
 ---
 
 # ❓ FAQ
 
-## Questions
+## Întrebări
 
-### Can I add more than 2 buttons?
+### Pot să adaug mai mult de 2 butoane?
 
-No, it's a limitation of Discord.
+Nu, este o limitare de la Discord.
 
-### Can I use a different type of activity (e.g. listening, watching, streaming)?
+### Pot folosi un alt tip de activitate (e.g. listening, watching, streaming)?
 
-No, it's also a Discord limitation.
+Nu, este tot o limitare de la Discord.
 
-### Why if I set a timestamp couple days in the future, Discord only shows how many hours left?
+### De ce dacă setez un marcaj temporal de câteva zile în viitor, Discord arată doar câte ore au mai rămas?
 
-You guessed it, it's also a Discord limitation.
+Ai ghicit, este tot o limitare de la Discord.
 
-### Will there be Linux/Mac version?
+### Va exista o versiune Linux / Mac?
 
-The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
+Aplicația este construită folosind o bibliotecă doar pentru Windows, prin urmare, sprijinirea Linux și Mac ar însemna rescrierea întregii aplicații într-o altă bibliotecă / limbaj de codificare pe care nu se poate planifica încă.
 
-### A window called "Pipe" opened up for some reason, what is this?
+### O fereastră numită "Pipe" s-a deschis dintr-un motiv oarecare, ce este aceasta?
 
-It opened up because you pressed Ctrl+Shift and clicked Connect button (or Ctrl and Connect button or Reconnect in tray icon menu on older versions). Leave it at -1 and close it. It's used for situations when you have more than one Discord client running at the same time. Changing pipe number effectively chooses which client you want your presence to be in.
+S-a deschis deoarece ați apăsat Ctrl+Shift și ați făcut clic pe butonul Connect (sau Ctrl si Connect sau Reconnect în meniul pictogramei pe versiunile mai vechi). Lăsați-l la -1 și închideți-l. Este folosit pentru situațiile în care aveți mai mult de un client Discord care rulează în același timp. Schimbarea numărului de pipe alege în mod eficient clientul în care doriți să vă aflați prezența.
 
-## Troubleshooting
+## Rezolvarea Problemelor
 
-Before trying anything, make sure you are on the latest version of CustomRP!
+Înainte de a încerca ceva, asigurați-vă că sunteți pe cea mai recentă versiune de CustomRP!
 
-### When I click on presence buttons in my profile, they don't work.
+### Când fac clic pe butoanele de prezență din profilul meu, acestea nu funcționează.
 
-Buttons will not work for you on the desktop client you're using CustomRP with, it's a Discord's quirk. You can test your buttons from mobile or web client, or just ask someone else instead.
+Butoanele nu vor funcționa pentru tine pe clientul desktop cu care folosești CustomRP, este o ciudatenie a Discord-ului. Puteți testa butoanele de la clientul mobil sau web sau pur și simplu întrebați pe altcineva în schimb.
 
-### I installed CustomRP but it doesn't start.
+### Am instalat CustomRP, dar nu pornește.
 
-This is most likely your antivirus preventing the app from launching. Add `%appdata%\CustomRP` folder to exceptions.
+Acesta este cel mai probabil antivirusul care împiedică lansarea aplicației. Adaugați folderul `%appdata%\CustomRP` la excepții.
 
-### I installed CustomRP, allowed analytics and the app doesn't work anymore.
+### Am instalat CustomRP, am permis analytics și aplicația nu mai funcționează.
 
-Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, start the app again and don't allow analytics.
+Închideți aplicația în Task Manager, ștergeți folderul `%localappdata%\maximmax42` , porniți din nou aplicația și nu permiteți analytics.
 
-### The app has connected, but I don't see the status in my profile.
+### Aplicația s-a conectat, dar nu văd starea în profilul meu.
 
-Make sure you have enabled activity status in Discord settings:
+Asigurați-vă că ați activat starea activității în setările Discord:
 
 <figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
 
-### The app was working, but now it's connecting indefinitely.
+### Aplicația funcționa, dar acum se conectează la nesfârșit.
 
-You might have gotten a timeout from Discord because of connecting/changing presence a lot. Disconnect, wait 5-10 minutes, try to connect again. Restarting Discord might help too.
+Este posibil să fi obținut un timeout de la Discord din cauza conectării / schimbării prezenței foarte mult. Deconectați-vă, așteptați 5-10 minute, încercați să vă conectați din nou. Repornirea Discord-ului ar putea ajuta.
 
-### The app says "Wrong ID?"/"Is Discord running?" or connects indefinitely even though I'm sure I did everything right and Discord is running.
+### Aplicația spune "ID greșit?" /"Discord rulează?" sau se conectează la nesfârșit, chiar dacă sunt sigur că am făcut totul bine și Discord rulează.
 
-Sometimes this is caused by BetterDiscord. If you have it installed, uninstall it, let CustomRP connect to Discord at least once and then install BD back.
+Uneori, acest lucru este cauzat de BetterDiscord. Dacă îl aveți instalat, dezinstalați-l, lăsați CustomRP să se conecteze la Discord cel puțin o dată și apoi instalați BD înapoi.
 
-If you don't have BD or it didn't help, try running CustomRP as an administrator. If that doesn't help, try adding `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to (and maybe Discord), to firewall/antivirus exceptions, and then restart your whole PC (you could try restarting just the Discord and CustomRP, but in 95% of the cases it doesn't work). Other thing you can try is to temporarily quit all the Discord clients but your main one. If that doesn't help, I never could figure out what causes this, sorry.
+Dacă nu aveți BD sau nu v-a ajutat, încercați să rulați CustomRP ca administrator. Dacă acest lucru nu vă ajută, încercați să adăugați `%appdata%\CustomRP` sau, în cazul în care utilizați o versiune portabilă, folderul în care ați extras CustomRP (sau poate Discord), la excepțiile firewall/antivirus, și apoi reporniți întregul PC (ați putea încerca să reporniți doar Discord și CustomRP, dar în 95% din cazuri nu funcționează). Un alt lucru pe care îl puteți încerca este să renunțați temporar la toți clienții Discord, dar nu la cel principal. În cazul în care nu ajută, niciodată nu am putut da seama ce cauzează acest lucru, îmi pare rău.
 
-### The app was working before, but then it crashed and now it doesn't launch at all.
+### Aplicația funcționa înainte, dar apoi s-a oprit și acum nu se lansează deloc.
 
-Perhaps you have inserted a long string of fancy text (or text in a language that uses non-Latin letters) in a field and that crashed the app. To fix this, press Win+R, type `%localappdata%\maximmax42` and delete or rename folders with CustomRP in the name, then start the app. Note that this resets the app completely.
+Poate că ați introdus un șir lung de fancy text (sau text într-o limbă care utilizează litere non-latine) într-un câmp și care a oprit aplicația. Pentru a remedia acest lucru, apăsați Win+R, scrieți `%localappdata%\maximmax42` și ștergeți sau redenumiți folderele cu CustomRP în nume, apoi porniți aplicația. Rețineți că acest lucru resetează complet aplicația.
 
-### The app keeps crashing when updating/trying to connect/etc.
+### Aplicația continuă să se oprească atunci când se actualizează / încearcă să se conecteze / etc.
 
-If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
+Dacă reușiți să lansați aplicația și să obțineți un raport de oprire și se spune `System.IO.FileNotFoundException: Could not load file or assembly...`, vă rugăm să reinstalați aplicația.
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message maximmax42#5572 on Discord or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Dacă nu găsiți un răspuns la întrebarea/problema dvs., trimiteți un mesaj către canalul `#support` în [Server-ul de Discord CustomRP](https://www.customrp.xyz/discordserver), scrieți creatorului maximmax42#5572 pe Discord sau [deschideți o problemă pe GitHub](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
