@@ -2,57 +2,57 @@
 description: RTFM
 ---
 
-# 🛠 Setting Up
+# 🛠 Configurare
 
-If you experience any errors, check out [FAQ](faq.md).
+Dacă întâmpinați erori, consultați [FAQ](faq.md).
 
-Before setting up, make sure you have enabled activity status in Discord settings:&#x20;
+Înainte de configurare, asigurați-vă că ați activat starea activității în setările Discord:&#x20;
 
 <figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
 
-## Setup process
+## Procesul de instalare
 
-* Go to https://discord.com/developers/applications/.
-* Click **New Application** in the upper right corner.
+* Mergeți la https://discord.com/developers/applications/.
+* Click **New Application** în colțul din dreapta sus.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
-* Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**. If done correctly, your status in Discord should now say "Playing **\[name of the app]**".
-  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. It will be seen in the profile popup though.
+* Alegeți numele aplicației, acesta va fi afișat după statusul "Playing"; apasați **Create**.
+* Copiați **Application ID** și lipiți-l în câmpul **ID** din Custom RP, după apăsați **Connect**. Dacă este făcut corect, starea ta în Discord ar trebui să spună acum "Playing **\[numele aplicatiei]**".
+  * Notă: Dacă aveți un custom status setat (cel cu emoji), acesta va fi prioritizat față de cel din CustomRP. Totuși, va fi văzut în profilul pop-up.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets if you want to use them. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-  * Alternatively, you can just insert a direct link to the image into the **Key** field.
-  * Note: While you can name your asset with any name up to 999 symbols, the API will only accept names with 256 symbols max.
-* Navigate to Visualizer page to set up fields **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. All of those are optional.
-* After you've found the setup that pleases you, copy the values into CustomRP's corresponding fields.
-  * Tip: You can hover over almost any control in the app (including labels line **Details**) and it'll give you a tooltip!
-* If you want to set up buttons as well, fill in both Text and URL fields.
-  * Note: When you will click on the buttons in your own presence, they will not work, but don't worry, they will work for everyone else. It's a problem on Discord's side.
-* Hit **Update Presence** (or **Connect** if you aren't already connected).
-* Congratulations, you're wonderful!
+* Pe pagina aplicației, navigați la Rich Presence -> Art Assets și încărcați cel puțin o imagine sub Rich Presence Assets dacă doriți să le utilizați. În CustomRP, există un buton util **Upload Assets** in meniul File (puteți utiliza și Ctrl+U) care vă va duce acolo dacă câmpul ID este configurat corect.
+  * Alternativ, puteți insera doar un link direct la imagine în câmpul **Key**.
+  * Notă: Deși vă puteți denumi resursa cu orice nume de până la 999 de simboluri, API-ul va accepta doar nume cu maximum 256 de simboluri.
+* Navigați la pagina Vizualizer pentru a configura câmpurile **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. Toate acestea sunt opționale.
+* După ce ați găsit configurarea care vă place, copiați valorile în câmpurile corespunzătoare CustomRP.
+  * Sfat: Puteți trece cu mouse-ul peste aproape orice control din aplicație (inclusiv linia de etichete **Details**) și vă va oferi un sfat!
+* Dacă doriți să configurați și butoane, completați atât câmpurile Text, cât și URL.
+  * Notă: Când veți face clic pe butoane în propria prezență, acestea nu vor funcționa, dar nu vă faceți griji, vor funcționa pentru toți ceilalți. E o problemă în partea de Discord.
+* Apăsați **Update Presence** (sau **Connect** dacă nu sunteți deja conectat).
+* Felicitări, ați terminat!
 
-### I use more than one Discord client, what do I do?
+### Folosesc mai mult de un client Discord, ce fac?
 
-If you have more than one Discord client and you wish your presence to show up on a different account from the one app chose automatically, please press **Disconnect**, then hold Ctrl+Shift keys on your keyboard and press **Connect**. A window with a number input will pop up, put a number 1, close the window, and press **Connect** again, without Ctrl+Shift. In case it's a wrong account again, try number 0, then 2 and so on up until 9.
+Dacă aveți mai mult de un client Discord și doriți ca prezența dumneavoastră să apară pe un cont diferit de cel ales automat, vă rugăm să apăsați **Disconnect**, apoi țineți apăsat Ctrl+Shift de pe tastatură și apăsați **Connect**. O fereastră cu o intrare de număr va apărea, puneți un număr 1, închideți fereastra și apăsați **Connect** din nou, fără Ctrl+Shift. În cazul în care este un cont greșit din nou, încercați numărul 0, apoi 2 și așa mai departe până la 9.
 
-Please note that if you have multiple Discord clients run on startup, pipe number assigned to each client might not be persistent from boot to boot and can change depending on which client started first. To prevent that, you can either start additional clients manually, or use Windows Task Scheduler to delay the startup of the clients.
+Vă rugăm să rețineți că, dacă aveți mai mulți clienți Discord care rulează la pornire, numărul pipe atribuit fiecarui client este posibil să nu fie persistent de la boot to boot și se poate schimba în funcție de clientul care a început prima dată. Pentru a preveni acest lucru, aveți posibilitatea să porniți clienții suplimentari manual sau să utilizați Windows Task Scheduler pentru a întârzia pornirea clienților.
 
-If you have 2 accounts that you use at the same time and want for each of them to have a different presence, then follow these steps:
+Dacă aveți 2 conturi pe care le utilizați în același timp și doriți ca fiecare dintre ele să aibă o prezență diferită, urmați acești pași:
 
-* Set up your main account first with the instructions above.
-* Grab the latest **portable (.zip)** version of CustomRP (either from [website](https://www.customrp.xyz) or [GitHub releases page](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) and unpack it anywhere.
-  * This only works with versions 1.16 and older.
-* Open `Start Second Instance.bat` or create a shortcut to CustomRP.exe with an argument `--second-instance` (or `-2`).
-* Set up the program the same way you did your main instance.
-  * Tip: If you already have a preset you would want to use with your second instance, you can edit the bat file or the shortcut to include the path to the preset. Example: `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (quotation marks around the path are necessary if the path has spaces in it).
-* Before connecting, change the pipe as described earlier and connect.
+* Configurați-vă mai întâi contul principal cu instrucțiunile de mai sus.
+* Descărcați cea mai recentă versiune **portable (.zip)** de CustomRP (fie de pe [Pagina de Web](https://www.customrp.xyz) sau [Pagina de lansări GitHub](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) și dați extract oriunde.
+  * Acest lucru funcționează numai cu versiunile 1.16 și mai vechi.
+* Deschideți `Start Second Instance.bat` sau creați o comandă rapidă la CustomRP.exe cu un argument `--second-instance` (sau `-2`).
+* Configurați programul în același mod în care ați făcut instanța principală.
+  * Sfat: Dacă aveți deja o presetare pe care doriți să o utilizați cu a doua instanță, puteți edita fișierul bat sau comanda rapidă pentru a include calea către presetare. Exemplu: `CustomRP.exe -2 "C:\Nume Folder\preset.crp"` (ghilimelele din jurul traseului sunt necesare dacă traseul are spații în el).
+* Înainte de conectare, schimbați pipe-ul așa cum este descris mai devreme și conectați-vă.
 
-If you use 3 or more accounts at the same time, then... why? But also if enough of you will nag me, I'll add support for using more instances.
+Mesaj de la Creator: Dacă utilizați 3 sau mai multe conturi în același timp, atunci ... de ce? Dar și dacă mulți dintre voi mă certați, Voi adăuga suport pentru utilizarea mai multor instanțe.
 
-## Notes
+## Notițe
 
-* If you don't want to set up small or large image, leave all related fields in the program blank.
-* If large image is not set, small image settings will be ignored.
+* Dacă nu doriți să configurați imagini mici sau mari, lăsați necompletate toate câmpurile asociate din program.
+* Dacă imaginea mare nu este setată, setările mici ale imaginii vor fi ignorate.
