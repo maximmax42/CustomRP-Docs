@@ -1,9 +1,8 @@
 # 🏠 Home
 
-Welcome to the CustomRP docs!
+Bine ai venit la CustomRP docs!
 
-Please refer to [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) link to download the app or to [Setting Up](setting-up.md) page for how to set the manager up.
+Vă rugăm să consultați link-ul [Versiuni](https://github.com/maximmax42/Discord-CustomRP/releases) pentru a descărca aplicația sau pagina de [Setări](setting-up.md) pentru modul de configurare a managerului.
 
-Check out [FAQ](faq.md) page for answers to frequent questions and troubleshooting steps for common problems.
+Consultați pagina [FAQ](faq.md) pentru răspunsuri la întrebări frecvente și pași de rezolvare pentru probleme relevante.
 
-Want to add your language to the wiki? Message me on Discord (maximmax42#5572) or in the [CustomRP server](https://www.customrp.xyz/discordserver), or [open an issue](https://github.com/maximmax42/CustomRP-docs/issues/new?title=New%20language:%20\[put%20your%20language%20here]) in the GitHub repo of this wiki. If you want to edit existing language - please use "Edit on GitHub" link in the right hand menu of the translated page.
