@@ -1,4 +1,4 @@
-# 🏠 Home
+# 🏠 Acasă
 
 Bine ai venit la CustomRP docs!
 
