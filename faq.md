@@ -20,7 +20,7 @@ Ai ghicit, este tot o limitare de la Discord.
 
 ### Va exista o versiune Linux / Mac?
 
-Aplicația este construită folosind o bibliotecă doar pentru Windows, prin urmare, sprijinirea Linux și Mac ar însemna rescrierea întregii aplicații într-o altă bibliotecă / limbaj de codificare pe care nu se poate planifica încă.
+Aplicația este construită folosind o bibliotecă doar pentru Windows, prin urmare, sprijinirea Linux și Mac ar însemna rescrierea întregii aplicații într-o altă bibliotecă / limbaj de codificare care nu se poate planifica încă.
 
 ### O fereastră numită "Pipe" s-a deschis dintr-un motiv oarecare, ce este aceasta?
 
