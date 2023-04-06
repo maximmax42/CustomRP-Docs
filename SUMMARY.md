@@ -1,5 +1,6 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-* [🛠 Setting Up](setting-up.md)
+* [🏠 Acasă](README.md)
+* [🛠 Configurare](setting-up.md)
 * [❓ FAQ](faq.md)
+* [⭐ Credite](credits.md)
