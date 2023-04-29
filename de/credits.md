@@ -1,0 +1,3 @@
+# ⭐ Credits
+
+Translated by Yoshi.
