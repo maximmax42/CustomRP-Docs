@@ -6,9 +6,9 @@ description: RTFM
 
 If you experience any errors, check out [FAQ](faq.md).
 
-Before setting up, make sure you have enabled activity status in Discord settings:&#x20;
+Before setting up, make sure you have a standalone Discord client (**not in browser**) and have enabled activity status in Discord settings:
 
-<figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
+![image](https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png)
 
 ## Setup process
 
