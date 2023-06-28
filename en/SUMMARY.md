@@ -2,4 +2,4 @@
 
 * [🏠 Home](README.md)
 * [🛠 Setting Up](setting-up.md)
-* [❓ FAQ](faq.md)
+* [❓ Frequently Asked Questions](faq.md)
