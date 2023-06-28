@@ -6,6 +6,12 @@ description: Please stop asking me the same questions in the server.
 
 ## Questions
 
+### Is this a virus? My antivirus/VirusTotal/etc says there's a virus.
+
+No. CustomRP doesn't contain any viruses, the source code is available for everyone to check.
+
+You might be asking then, why do some antiviruses and VirusTotal say there's a virus? Mostly it's because my app a) isn't as popular to be considered trustworthy by Windows and some antiviruses, and b) isn't signed with a code signing certificate (because I'm Russian I currently can't even buy one, and if I could, they're pretty expensive).
+
 ### Can I add more than 2 buttons?
 
 No, it's a limitation of Discord.
