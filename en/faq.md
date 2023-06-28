@@ -1,8 +1,8 @@
 ---
-description: Frequently asked questions
+description: Please stop asking me the same questions in the server.
 ---
 
-# ❓ FAQ
+# ❓ Frequently Asked Questions
 
 ## Questions
 
