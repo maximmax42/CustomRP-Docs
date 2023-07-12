@@ -1,3 +1,3 @@
 # ⭐ 크레딧
 
-Yeongaori 에 의해 변역됨.
+번역: [연가오리](https://github.com/yeongaori)
