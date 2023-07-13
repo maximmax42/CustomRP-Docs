@@ -50,7 +50,15 @@ Es posible que haya obtenido un tiempo de espera de Discord debido a la conexió
 
 ### La aplicación dice "¿ID Incorrecto?"/"¿Se está ejecutando Discord?" o se conecta indefinidamente aunque estoy seguro de que hice todo bien y Discord se está ejecutando.
 
-A veces esto es causado por BetterDiscord. Si lo tiene instalado, desinstálelo, deje que CustomRP se conecte a Discord al menos una vez y luego vuelva a instalar BD. Si no lo hace, intente ejecutar CustomRP como administrador. Si eso no ayuda, intente agregar `%appdata%\CustomRP` o, en caso de que esté usando una versión portátil, la carpeta a la que extrajo CustomRP (y tal vez Discord) a las excepciones de firewall/antivirus, y luego reinicie todo. PC (podría intentar reiniciar solo Discord y CustomRP, pero en el 95% de los casos no funciona). Otra cosa que puede intentar es cerrar temporalmente todos los clientes de Discord excepto el principal. Si eso no ayuda, nunca pude averiguar qué causa esto, lo siento.
+Aquí tienes algunas cosas que puedes probar:
+- **Asegúrate de estar usando un cliente independiente de Discord (no en el navegador).**
+- Si tienes instalado BetterDiscord/Vencord/etc, desinstálalo, permite que CustomRP se conecte a Discord al menos una vez y luego vuelve a instalarlo.
+- Si usas varios clientes de Discord, cierra temporalmente todos excepto el que deseas usar para la RichPresence.
+- Ejecuta CustomRP como administrador (Click Derecho al programa y opción "Ejectuar como Administrador).
+- Agrega `%appdata%\CustomRP` o, en caso de que estés utilizando una versión portátil, la carpeta donde hayas extraído CustomRP, a las excepciones del firewall y/o antivirus, luego reinicia tu PC por completo.
+- Reinstala Discord.
+
+Si nada de eso ayudó, lamentablemente no puedo sugerirte nada más, perdón.
 
 ### La aplicación funcionaba antes, pero luego se bloqueó y ahora no se inicia en absoluto.
 
