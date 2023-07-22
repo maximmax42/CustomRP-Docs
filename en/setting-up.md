@@ -12,7 +12,7 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
 
 ## Setup process
 
-* Go to https://discord.com/developers/applications/.
+* Go to [https://discord.com/developers/applications/](https://discord.com/developers/applications/).
 * Click **New Application** in the upper right corner.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
