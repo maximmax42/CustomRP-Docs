@@ -78,4 +78,4 @@ Perhaps you have inserted a long string of fancy text (or text in a language tha
 
 If you are able to launch the app and get a crash report, and it says `System.IO.FileNotFoundException: Could not load file or assembly...`, please reinstall the app.
 
-If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message maximmax42#5572 on Discord or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+If you can't find an answer to your question/problem, send a message to a `#support` channel on [CustomRP Discord server](https://www.customrp.xyz/discordserver), message maximmax42 on Discord or [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
