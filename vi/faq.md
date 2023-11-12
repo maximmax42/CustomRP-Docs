@@ -78,4 +78,4 @@ Có lẽ bạn đã chèn một chuỗi văn bản dài (hoặc văn bản trong
 
 Nếu bạn có thể khởi động ứng dụng và nhận được báo cáo sự cố, và nó hiện `System.IO.FileNotFoundException: Could not load file or assembly...`, vui lòng cài đặt lại ứng dụng.
 
-Nếu bạn không thể tìm thấy câu trả lời cho câu hỏi/vấn đề của mình, gửi một tin nhắn đến kênh `#support` ở [máy chủ Discord CustomRP](https://www.customrp.xyz/discordserver), nhắn tin đến `@maximmax42` ở Discord hoặc [mở một vấn đề](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Nếu bạn không thể tìm thấy câu trả lời cho câu hỏi/vấn đề của mình, gửi một tin nhắn đến kênh `#support` ở [máy chủ Discord CustomRP](https://www.customrp.xyz/discordserver), nhắn tin đến maximmax42 ở Discord hoặc [mở một vấn đề](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
