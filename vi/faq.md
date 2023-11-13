@@ -26,7 +26,7 @@ Bạn đoán xem, đó cũng là giới hạn của Discord.
 
 ### Liệu sẽ có phiên bản Linux/Mac?
 
-Ứng dụng này được tạo bằng một thư viện chỉ dành cho Windows, vì vậy việc hỗ trợ Linux và Mac cũng có nghĩa là viết lại cả ứng dụng với một thư viện/ngôn ngữ lập trình, điều mà tôi chưa lên kế hoạch.
+Ứng dụng này được viết bằng một thư viện chỉ dành cho Windows, vì vậy việc hỗ trợ Linux và Mac cũng có nghĩa là viết lại cả ứng dụng với một thư viện/ngôn ngữ lập trình khác, điều mà tôi chưa lên kế hoạch.
 
 ### Một cửa sổ tên là "Pipe" hiện lên vì một lý do nào đó, đây là gì?
 
