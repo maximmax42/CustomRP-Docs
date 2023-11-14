@@ -40,19 +40,19 @@ Nếu bạn sử dụng nhiều hơn một ứng dụng Discord và bạn muốn
 
 Lưu ý rằng nếu như bạn có nhiều ứng dụng Discord chạy trong khi khởi động, số pipe được gán cho mỗi ứng dụng có thể không liên tục từ khởi động này đến khởi động khác và có thể thay đổi dựa trên trình tự ứng dụng khởi động. Để tránh điều đó, bạn có thể chạy ứng dụng theo cách thủ công, hoặc dùng Windows Task Scheduler để trì hoãn việc khởi động của ứng dụng.
 
-If you have 2 accounts that you use at the same time and want for each of them to have a different presence, then follow these steps:
+Nếu bạn có hai tài khoản và bạn muốn dùng nó trong cùng một lúc và muốn chúng có một presence riêng biệt, hãy làm theo các bước sau:
 
-* Set up your main account first with the instructions above.
-* Grab the latest **portable (.zip)** version of CustomRP (either from [website](https://www.customrp.xyz) or [GitHub releases page](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) and unpack it anywhere.
-  * This only works with versions 1.16 and older.
-* Open `Start Second Instance.bat` or create a shortcut to CustomRP.exe with an argument `--second-instance` (or `-2`).
-* Set up the program the same way you did your main instance.
-  * Tip: If you already have a preset you would want to use with your second instance, you can edit the bat file or the shortcut to include the path to the preset. Example: `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (quotation marks around the path are necessary if the path has spaces in it).
-* Before connecting, change the pipe as described earlier and connect.
+* Trước tiên thiết lập tài khoản chính của bạn với hướng dẫn bên trên.
+* Lấy **bản di động (.zip)** mới nhất của CustomRP (có thể từ [website](https://www.customrp.xyz) hoặc [trang phát hành trên GitHub](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) và giải nén nó.
+  * Điều này chỉ hoạt động với phiên bản 1.16 trở lên.
+* Mở `Start Second Instance.bat` hoặc tạo một lối tắt tới CustomRP với một đối số `--second-instance` (hoặc `-2`).
+* Thiết lập ứng dụng này giống như cách bạn đã làm với ứng dụng chính.
+  * Mẹo: Nếu như bạn đã có một cài đặt trước mà bạn muốn dùng với ứng dụng này, bạn có thể chỉnh sửa tệp bat hoặc lối tắt để thêm đường dẫn đến thiết lập đó. Ví dụ: `CustomRP.exe -2 "C:\Cặp Nào Đó\preset.crp"` (dấu ngoặc kép xung quanh đường dẫn là cần thiết nếu đường dẫn có dấu cách trong đó).
+* Trước khi kết nối, chỉnh pipe như đã giải thích trước đó và kết nối.
 
-If you use 3 or more accounts at the same time, then... why? But also if enough of you will nag me, I'll add support for using more instances.
+Nếu bạn muốn sử dụng 3 hoặc nhiều tài khoản trở lên vào cùng một lúc, thì... tại sao? Nhưng nếu bạn có đủ sức ép tôi, Tôi sẽ thêm hỗ trợ để sử dụng nhiều ứng dụng hơn.
 
-## Notes
+## Lưu Ý
 
-* If you don't want to set up small or large image, leave all related fields in the program blank.
-* If large image is not set, small image settings will be ignored.
+* Nếu bạn không muốn thiết lập ảnh nhỏ hay ảnh lớn, bỏ trống những mục đó trong chương trình.
+* Nếu không đặt ảnh lớn, cài đặt ảnh nhỏ sẽ bị bỏ qua.
