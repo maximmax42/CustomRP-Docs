@@ -2,9 +2,9 @@
 description: Vui lòng không được hỏi tôi những câu hỏi này ở máy chủ.
 ---
 
-# ❓ Câu hỏi thường gập
+# ❓ Câu Hỏi Thường Gặp
 
-## Câu hỏi
+## Câu Hỏi
 
 ### Đây có phải là một virus? Phần mềm diệt virus/VirusTotal/v.v nói nó có virus.
 
@@ -32,7 +32,7 @@ Bạn đoán xem, đó cũng là giới hạn của Discord.
 
 Nó hiện lên vì bạn nhấn Ctrl+Shift và nhấn nút Kết nối (hoặc Ctrl và nút Kết nối hoặc Kết nối lại trong menu biểu tượng ở khay ở những phiên bản cũ). Để nó ở -1 và đóng nó. Nó được dùng trong tình huống khi bạn có nhiều ứng dụng Discord chạy cùng một lúc. Thay đổi số pipe giúp chọn ứng dụng nào bạn muốn presence xuất hiện.
 
-## Xử lý sự cố
+## Xử Lý Sự Cố
 
 Trước khi thử bất kì điều gì, đảm bảo bạn đang dùng phiên bản CustomRP mới nhất!
 
