@@ -1,5 +1,5 @@
-# Mục lục
+# Mục Lục
 
-* [🏠 Trang chủ](README.md)
-* [🛠 Thiết lập](setting-up.md)
-* [❓ Câu hỏi thường gặp](faq.md)
+* [🏠 Trang Chủ](README.md)
+* [🛠 Thiết Lập](setting-up.md)
+* [❓ Câu Hỏi Thường Gặp](faq.md)
