@@ -1,16 +1,16 @@
 ---
-description: Vui lòng đọc cái hướng dẫn này
+description: Vui lòng đọc cái hướng dẫn này.
 ---
 
 # 🛠 Thiết Lập
 
-Nếu bạn gặp bất kì lỗi nào, hãy xem [Câu hỏi thường gặp](faq.md).
+Nếu bạn gặp bất kì lỗi nào, hãy xem [Câu Hỏi Thường Gặp](faq.md).
 
 Trước khi thiết lập, hãy đảm bảo bạn đã có một ứng dụng Discord độc lập (**không ở trình duyệt**) và đã bật trạng thái hoạt động trong cài đặt Discord:
 
 ![image](https://user-images.githubusercontent.com/65167922/282306100-83582007-85b1-40fb-9f14-881c6d06d975.png)
 
-## Quá trình thiết lập
+## Quá Trình Thiết Lập
 
 * Vào trang [https://discord.com/developers/applications/](https://discord.com/developers/applications/).
 * Nhấn **New Application** ở trên góc phải màn hình.
@@ -23,22 +23,22 @@ Trước khi thiết lập, hãy đảm bảo bạn đã có một ứng dụng 
 
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets if you want to use them. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-  * Alternatively, you can just insert a direct link to the image into the **Key** field.
-  * Note: While you can name your asset with any name up to 999 symbols, the API will only accept names with 256 symbols max.
-* Navigate to Visualizer page to set up fields **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. All of those are optional.
-* After you've found the setup that pleases you, copy the values into CustomRP's corresponding fields.
-  * Tip: You can hover over almost any control in the app (including labels line **Details**) and it'll give you a tooltip!
-* If you want to set up buttons as well, fill in both Text and URL fields.
-  * Note: When you will click on the buttons in your own presence, they will not work, but don't worry, they will work for everyone else. It's a problem on Discord's side.
-* Hit **Update Presence** (or **Connect** if you aren't already connected).
-* Congratulations, you're wonderful!
+* Ở trang của ứng dụng, chuyển đến trang Rich Presence -> Art Assets và tải nhất ít nhất một hình ảnh trong Rich Presence Assets nếu bạn muốn dùng chúng. Ở CustomRP, sẽ có nút **Tải lên thiết lập** ở menu Tập tin (bạn cũng có thể nhấn Ctrl+U) sẽ đưa bạn đến đó nếu mục ID của bạn được thiết lập đúng cách.
+  * Ngoài ra, bạn có thể chèn đường dẫn tới hình ảnh vào mục **Key**.
+  * Lưu ý: Trong khi bạn có thể đặt tên thiết lập của bạn lên tới 999 kí tự, API sẽ chỉ chấp nhận cái tên với 256 kí tự.
+* Di chuyển đến trang Visualizer để thiết lập mục **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. Tất cả chúng đều không bắt buộc.
+* Sau khi bạn đã thiết lập, sao chép giá trị vào các mục tương ứng trong CustomRP.
+  * Mẹo: Bạn có thể di chuột qua hầu hết mọi điều khiển trong ứng dụng (bao gồm cả **Details**) và nó sẽ cho bạn hướng dẫn chú giải!
+* Nếu bạn muốn thiết lập các nút, điền vào cả mục Text và URL.
+  * Lưu ý: Khi bạn thử nhấn nút ở presence của mình, chúng sẽ không hoạt động, nhưng đừng lo, chúng sẽ hoạt động cho người khác. Đó là vấn đề của Discord.
+* Nhấn **Cập nhật trạng thái** (hoặc **Kết nối** nếu bạn chưa kết nối).
+* Chúc mừng bạn, bạn thật tuyệt vời!
 
-### I use more than one Discord client, what do I do?
+### Nếu tôi sử dụng nhiều hơn một ứng dụng Discord, tôi nên làm gì?
 
-If you have more than one Discord client and you wish your presence to show up on a different account from the one app chose automatically, please press **Disconnect**, then hold Ctrl+Shift keys on your keyboard and press **Connect**. A window with a number input will pop up, put a number 1, close the window, and press **Connect** again, without Ctrl+Shift. In case it's a wrong account again, try number 0, then 2 and so on up until 9.
+Nếu bạn sử dụng nhiều hơn một ứng dụng Discord và bạn muốn presence xuất hiện ở các tài khoản khác nhau ngoài tài khoản mà ứng dụng chọn tự động, vui lòng nhấn **Ngắt kết nối**, sau đó giữ phím Ctrl+Shift ở trên bàn phím sau đó nhấn **Kết nối**. Một cửa sổ nhập số sẽ hiện lên, nhập số 1, đóng cửa sổ đó, và nhấn lại nút **Kết nối** mà không cần giữ phím Ctrl+Shift. Trong trường hợp sai tài khoản, thử số 0, sau đó số 2 và tiếp tục cho đến số 9.
 
-Please note that if you have multiple Discord clients run on startup, pipe number assigned to each client might not be persistent from boot to boot and can change depending on which client started first. To prevent that, you can either start additional clients manually, or use Windows Task Scheduler to delay the startup of the clients.
+Lưu ý rằng nếu như bạn có nhiều ứng dụng Discord chạy trong khi khởi động, số pipe được gán cho mỗi ứng dụng có thể không liên tục từ khởi động này đến khởi động khác và có thể thay đổi dựa trên trình tự ứng dụng khởi động. Để tránh điều đó, bạn có thể chạy ứng dụng theo cách thủ công, hoặc dùng Windows Task Scheduler để trì hoãn việc khởi động của ứng dụng.
 
 If you have 2 accounts that you use at the same time and want for each of them to have a different presence, then follow these steps:
 
