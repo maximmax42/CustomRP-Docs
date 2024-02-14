@@ -44,7 +44,7 @@ If you have 2 accounts that you use at the same time and want for each of them t
 
 * Set up your main account first with the instructions above.
 * Grab the latest **portable (.zip)** version of CustomRP (either from [website](https://www.customrp.xyz) or [GitHub releases page](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) and unpack it anywhere.
-  * This only works with versions 1.16 and older.
+  * This only works with versions 1.16 and newer.
 * Open `Start Second Instance.bat` or create a shortcut to CustomRP.exe with an argument `--second-instance` (or `-2`).
 * Set up the program the same way you did your main instance.
   * Tip: If you already have a preset you would want to use with your second instance, you can edit the bat file or the shortcut to include the path to the preset. Example: `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (quotation marks around the path are necessary if the path has spaces in it).
