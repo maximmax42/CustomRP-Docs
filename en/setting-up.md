@@ -12,17 +12,18 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
 
 ## Setup process
 
-* Go to [https://discord.com/developers/applications/](https://discord.com/developers/applications/).
+* Open [Discord Developer portal](https://discord.com/developers/applications).
 * Click **New Application** in the upper right corner.
 
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**. If done correctly, your status in Discord should now say "Playing **\[name of the app]**".
-  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
+* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**.&#x20;
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
+* If done correctly, your status in Discord should now say "Playing **\[name of the app]**". In case of errors, check [FAQ](faq.md).
+  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the other fields (everything is optional):
   * **Details**: First line in the presence under the app name.
   * **State**: Second line in the presence. Will be first if Details is empty.
