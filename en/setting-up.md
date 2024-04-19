@@ -8,7 +8,7 @@ If you experience any errors, check out [FAQ](faq.md).
 
 Before setting up, make sure you have a standalone Discord client (**not in browser**) and have enabled activity status in Discord settings:
 
-![image](https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png)
+![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/3a8f3040-0dfa-4883-b4f2-4142474553f6)
 
 ## Setup process
 
@@ -19,18 +19,23 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
 * Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**. If done correctly, your status in Discord should now say "Playing **\[name of the app]**".
-  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. It will be seen in the profile popup though.
+  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets if you want to use them. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-  * Alternatively, you can just insert a direct link to the image into the **Key** field.
-  * Note: While you can name your asset with any name up to 999 symbols, the API will only accept names with 256 symbols max.
-* Navigate to Visualizer page to set up fields **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max**. All of those are optional.
-* After you've found the setup that pleases you, copy the values into CustomRP's corresponding fields.
-  * Tip: You can hover over almost any control in the app (including labels line **Details**) and it'll give you a tooltip!
-* If you want to set up buttons as well, fill in both Text and URL fields.
-  * Note: When you will click on the buttons in your own presence, they will not work, but don't worry, they will work for everyone else. It's a problem on Discord's side.
+* Now you can fill the other fields (everything is optional):
+  * **Details**: First line in the presence under the app name.
+  * **State**: Second line in the presence. Will be first if Details is empty.
+  * **Party**: Shows up as `(X of Y)` after State line. If State is empty, Party count will not be shown.
+  * **Timestamp**: A timer that either counts to or from a specific timestamp. Displayed below Details and State as either "xx:xx:xx elapsed" or "xx:xx:xx left". Can only show up to 23:59:59 before rolling over to 00:00.
+  * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one.
+    * **Key**: Either a direct URL (preferred, as you can also use GIFs that way) or an Art Asset name.
+      * *URL method*: If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, easiest way is to send it in any Discord channel/DM, then copy the image URL (not message URL!).
+      * *Art Asset method*: On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly. Please note, that while you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
+    * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
+  * **Buttons**:
+    * **Text**: A text displayed on the button.
+    * **URL**: A URL that the button will open upon clicking.
 * Hit **Update Presence** (or **Connect** if you aren't already connected).
 * Congratulations, you're wonderful!
 
