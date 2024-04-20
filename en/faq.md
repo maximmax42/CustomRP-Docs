@@ -66,6 +66,7 @@ Here are some things for you to try:
 - If you use multiple Discord clients, temporarily quit all of them except the one you want the presence to be on.
 - Run CustomRP as administrator.
 - Add `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to, to firewall and/or antivirus exceptions, then restart your whole PC.
+  - If you don't know whether you have an antivirus or not, you most likely do - Windows Defender is on every Windows 10/11 computer.
 - Reinstall Discord.
 
 If nothing helped, I can't suggest anything else, sorry.
