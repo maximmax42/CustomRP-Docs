@@ -36,10 +36,6 @@ It opened up because you pressed Ctrl+Shift and clicked Connect button (or Ctrl 
 
 Before trying anything, make sure you are on the latest version of CustomRP!
 
-### When I click on presence buttons in my profile, they don't work.
-
-Buttons will not work for you on the desktop client you're using CustomRP with, it's a Discord's quirk. You can test your buttons from mobile or web client, or just ask someone else instead.
-
 ### I installed CustomRP but it doesn't start.
 
 This is most likely your antivirus preventing the app from launching. Add `%appdata%\CustomRP` folder to exceptions.
@@ -70,6 +66,10 @@ Here are some things for you to try:
 - Reinstall Discord.
 
 If nothing helped, I can't suggest anything else, sorry.
+
+### The app is stuck on "Updating presence..."
+
+Check image URLs in Key fields, they might be malformed (e.g. you inserted new link in the middle of an old one).
 
 ### The app was working before, but then it crashed and now it doesn't launch at all.
 
