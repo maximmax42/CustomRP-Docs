@@ -23,7 +23,8 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
 * If done correctly, your status in Discord should now say "Playing **\[name of the app]**". In case of errors, check [FAQ](faq.md).
-  * Note: If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
+  * The status will not show if you're in invisible mode.
+  * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the other fields (everything is optional):
   * **Details**: First line in the presence under the app name.
   * **State**: Second line in the presence. Will be first if Details is empty.
