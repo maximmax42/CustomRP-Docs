@@ -58,6 +58,7 @@ You might have gotten a timeout from Discord because of connecting/changing pres
 
 Here are some things for you to try:
 - **Make sure you're running a standalone Discord client (not in browser).**
+- Restart your PC. Pro tip: restarting PC solves a lot of problems.
 - If you have BetterDiscord/Vencord/etc installed, uninstall it, let CustomRP connect to Discord at least once and then install it back.
 - If you use multiple Discord clients, temporarily quit all of them except the one you want the presence to be on.
 - Run CustomRP as administrator.
