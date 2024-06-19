@@ -8,7 +8,7 @@ If you experience any errors, check out [FAQ](faq.md).
 
 Before setting up, make sure you have a standalone Discord client (**not in browser**) and have enabled activity status in Discord settings:
 
-![](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/3a8f3040-0dfa-4883-b4f2-4142474553f6)
+![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
 
 ## Setup process
 
