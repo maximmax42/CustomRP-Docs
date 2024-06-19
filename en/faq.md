@@ -48,7 +48,7 @@ Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, sta
 
 Make sure you have enabled activity status in Discord settings:
 
-![](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/3a8f3040-0dfa-4883-b4f2-4142474553f6)
+![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
 
 ### The app was working, but now it's connecting indefinitely.
 
