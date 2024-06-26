@@ -29,10 +29,11 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
   * **Details**: First line in the presence under the app name.
   * **State**: Second line in the presence. Will be first if Details is empty.
   * **Party**: Shows up as `(X of Y)` after State line. If State is empty, Party count will not be shown.
-  * **Timestamp**: A timer that either counts to or from a specific timestamp. Displayed below Details and State as either "xx:xx:xx elapsed" or "xx:xx:xx left". Can only show up to 23:59:59 before rolling over to 00:00.
+  * **Timestamp**: A timer that either counts to or from a specific timestamp. Displayed below Details and State as either `xx:xx:xx elapsed` or `xx:xx:xx left`. Can only show up to `23:59:59` before rolling over to `00:00`.
   * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one.
     * **Key**: Either a direct URL (preferred, as you can also use GIFs that way) or an Art Asset name.
-      * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, easiest way is to send it in any Discord channel/DM, then copy the image URL (not message URL!).
+      * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to upload images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
+        * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
       * _Art Asset method:_ On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
         * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
         * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
