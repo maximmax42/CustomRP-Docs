@@ -70,7 +70,7 @@ If nothing helped, I can't suggest anything else, sorry.
 
 ### The app is stuck on "Updating presence..."
 
-Check the image URLs, either it's too long, or isn't actually a direct link.
+Check the image URLs, they're either too long, or not actually direct links.
 
 ### The app was working before, but then it crashed and now it doesn't launch at all.
 
