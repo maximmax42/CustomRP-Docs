@@ -6,7 +6,7 @@
 
 ถ้าคุณเจอปัญหาอะไรก็ตาม, เช็คที่ [คำถามที่พบบ่อย](faq.md).
 
-ก่อนที่จะเริ่มตั้งค่าเช็คให้แน่ใจว่าคุณมี Discord แค่อันเดียวที่เปิดอยู่ (**ไม่ใช่ในเบราว์เซอร์**)
+ก่อนที่จะเริ่มตั้งค่าเช็กให้แน่ใจว่าคุณมี Discord แค่อันเดียวที่เปิดอยู่ (**ไม่ใช่ในเบราว์เซอร์**)
 และ เปิด "สถานะกิจกรรม" ในการตั้งค่าของ Discord แล้ว:
 
 ![image](.gitbook/assets/1.PNG)
@@ -18,21 +18,21 @@
 
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
-* ใส่ชื่อที่จะต้องการให้โชว์, จะโชว์ชื่อข้างล่างสถานะ "กำลังเล่น" กด **Create**.
+* ใส่ชื่อที่จะต้องการให้โชว์, ชื่อจะโชว์ข้างล่างสถานะ "กำลังเล่น". กด **Create**.
 * กดคัดลอก **Application ID** และ วางในฟิล์ด **ID**, แล้วก็กด **เชื่อมต่อ**.&#x20;
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* ถ้าทำถูกต้อง, สถานะใน Discord ควรขึ้นว่า "กำลังเล่น(th) Playing(en) **\[ตามด้วยชื่อที่ใส่ตอนแรก]**". ถ้าเจอปัญหา, เช็คที่[คำถามที่พบบ่อย](faq.md).
-  * The status will not show if you're in invisible mode.
-  * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
-* Now you can fill the other fields (everything is optional):
-  * **Details**: First line in the presence under the app name.
-  * **State**: Second line in the presence. Will be first if Details is empty.
-  * **Party**: Shows up as `(X of Y)` after State line. If State is empty, Party count will not be shown.
-  * **Timestamp**: A timer that either counts to or from a specific timestamp. Displayed below Details and State as either `xx:xx:xx elapsed` or `xx:xx:xx left`. Can only show up to `23:59:59` before rolling over to `00:00`.
-  * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one.
-    * **Key**: Either a direct URL (preferred, as you can also use GIFs that way) or an Art Asset name.
+* ถ้าทำถูกต้อง, สถานะใน Discord ควรขึ้นว่า "กำลังเล่นเกม **\[ตามด้วยชื่อที่ใส่ตอนแรก]**". ถ้าเจอปัญหา, เช็กที่ [คำถามที่พบบ่อย](faq.md).
+  * สถานะจะไม่โชว์ถ้าอยู่ใน โหมดไม่ระบุ. 
+  * ถ้าคุณมีสถานะที่กำหนดเองอยู่แล้ว(อันที่ตั้งอีโมจิได้), มันจะเป็นอันแรกที่ถูกโชว์ แทนที่จะเป็น CustomRP. สถานะของ Custom RP ยังสามารถเช็คได้ในโปรไฟล์ถ้ามีสถานะที่กำหนดเองอยู่แล้ว.
+* ถึงขั้นตอนนี้คุณสามารถกรอกฟิล์ดอื่นได้แล้ว (สามารถกรอกอะไรก็ได้ตามที่คุณต้องการ):
+  * **Details**: บรรทัดแรกที่จะโชว์ในสถานะ ข้างล่างชื่อที่ใส่ใน Application.
+  * **State**: บรรทัดสองที่จะโชว์ในสถานะ. จะกลายเป็นบรรทัดแรกถ้า Details ไม่ได้กรอกอะไร.
+  * **Party**: โชว์ตัวเลข `(X of Y)` ข้างหลังบรรทัด State. ถ้า Party ไม่ได้ใส่อะไร, Party จะไม่โชว์ขึ้นมา.
+  * **Timestamp**: ตัวจับเวลาที่จะนับตามรูปแบบ Timestamp ที่เลือก. จะโชว์เวลาข้างล่าง Details และ State" `xx:xx:xx ผ่านไป` หรือ `xx:xx:xx เหลืออยู่`. สามารถโชว์เวลาถึงแค่ `23:59:59` ก่อนที่จะเริ่มนับใหม่ที่ `00:00`.
+  * **ภาพขนาดใหญ่ และ เล็ก**: เป็นรูปภาพที่จะโชว์ทางด้านซ้ายของสถานะ. ถ้าทั้งสองภาพถูกตั้งค่าให้โชว์, ภาพเล็กจะย่อขนาดอยู่ด้านขวาล่างของภาพใหญ่.
+    * **Key**: จะเป็นช่องกรอก URL ที่ใช้ให้รูปภาพโชว์ (แนะนำ, เนื่องจากคุณสามารถใช้ GIFs ได้ด้วย) หรือ จะเป็นชื่อของภาพที่จะใช้ก็ได้.
       * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to upload images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
         * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
       * _Art Asset method:_ On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
