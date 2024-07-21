@@ -6,10 +6,11 @@
 
 ถ้าคุณเจอปัญหาอะไรก็ตาม, เช็คที่ [คำถามที่พบบ่อย](faq.md).
 
-ก่อนที่จะเริ่มการตั้งค่า, เช็คให้แน่ใจว่าคุณมี Discord แค่อันเดียวที่เปิดอยู่ (**ไม่ใช่เบราว์เซอร์**)
-Before setting up, make sure you have a standalone Discord client (**not in browser**) and have enabled activity status in Discord settings:
+ก่อนที่จะเริ่มตั้งค่าเช็คให้แน่ใจว่าคุณมี Discord แค่อันเดียวที่เปิดอยู่ (**ไม่ใช่ในเบราว์เซอร์**)
+และ เปิด "สถานะกิจกรรม" ในการตั้งค่าของ Discord แล้ว:
 
-![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
+![Image](https://github.com/Yukie23212/CustomRP-Docs-th/blob/48dcc801879cb4e3f3bb262c7c694b3a8f342bd7/th/.gitbook/assets/1.PNG?raw=true)
+
 
 ## Setup process
 
