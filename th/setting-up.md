@@ -11,19 +11,19 @@
 
 ![image](.gitbook/assets/1.PNG)
 
-## Setup process
+## ขั้นตอนเริ่มต้น
 
-* Open [Discord Developer portal](https://discord.com/developers/applications).
-* Click **New Application** in the upper right corner.
+* เข้าเว็ป [Discord Developer portal](https://discord.com/developers/applications).
+* กด **New Application** ทางด้านขวาบน.
 
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
-* Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**.&#x20;
+* ใส่ชื่อที่จะต้องการให้โชว์, จะโชว์ชื่อข้างล่างสถานะ "กำลังเล่น" กด **Create**.
+* กดคัดลอก **Application ID** และ วางในฟิล์ด **ID**, แล้วก็กด **เชื่อมต่อ**.&#x20;
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* If done correctly, your status in Discord should now say "Playing **\[name of the app]**". In case of errors, check [FAQ](faq.md).
+* ถ้าทำถูกต้อง, สถานะใน Discord ควรขึ้นว่า "กำลังเล่น(th) Playing(en) **\[ตามด้วยชื่อที่ใส่ตอนแรก]**". ถ้าเจอปัญหา, เช็คที่[คำถามที่พบบ่อย](faq.md).
   * The status will not show if you're in invisible mode.
   * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the other fields (everything is optional):
