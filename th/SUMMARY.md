@@ -1,5 +1,5 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-* [🛠️ Setting Up](setting-up.md)
-* [❓ Frequently Asked Questions](faq.md)
+* [🏠 หน้าหลัก](README.md)
+* [🛠️ วิธีการใช้งาน](setting-up.md)
+* [❓ คำถามที่พบบ่อย](faq.md)
