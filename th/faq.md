@@ -80,4 +80,4 @@
 ถ้าคุณสามารถเปิดแอป และ ได้รับรายงานข้อผิดพลาด และมันขึ้นว่า `System.IO.FileNotFoundException: Could not load file or assembly...`, ให้ถอนการติดตั้งและติดตั้งแอปใหม่.
 
 ถ้าคุณไม่สามารถหาคำตอบ หรือ คำถาม/ปัญหา, ให้ส่งข้อความมาที่ห้อง `#support` บน
-[CustomRP Discord server](https://www.customrp.xyz/discordserver), message maximmax42 บน Discord หรือ [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+[CustomRP Discord server](https://www.customrp.xyz/discordserver), ส่งข้อความหา maximmax42 บน Discord หรือ [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
