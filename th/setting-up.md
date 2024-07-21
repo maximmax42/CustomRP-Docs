@@ -9,8 +9,7 @@
 ก่อนที่จะเริ่มตั้งค่าเช็คให้แน่ใจว่าคุณมี Discord แค่อันเดียวที่เปิดอยู่ (**ไม่ใช่ในเบราว์เซอร์**)
 และ เปิด "สถานะกิจกรรม" ในการตั้งค่าของ Discord แล้ว:
 
-![Image](https://github.com/Yukie23212/CustomRP-Docs-th/blob/48dcc801879cb4e3f3bb262c7c694b3a8f342bd7/th/.gitbook/assets/1.PNG?raw=true)
-
+![image](.gitbook/assets/1.PNG)
 
 ## Setup process
 
