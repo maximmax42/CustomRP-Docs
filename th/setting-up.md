@@ -32,13 +32,15 @@
   * **Party**: โชว์ตัวเลข `(X of Y)` ข้างหลังบรรทัด State. ถ้า Party ไม่ได้ใส่อะไร, Party จะไม่โชว์ขึ้นมา.
   * **Timestamp**: ตัวจับเวลาที่จะนับตามรูปแบบ Timestamp ที่เลือก. จะโชว์เวลาข้างล่าง Details และ State" `xx:xx:xx ผ่านไป` หรือ `xx:xx:xx เหลืออยู่`. สามารถโชว์เวลาถึงแค่ `23:59:59` ก่อนที่จะเริ่มนับใหม่ที่ `00:00`.
   * **ภาพขนาดใหญ่ และ เล็ก**: เป็นรูปภาพที่จะโชว์ทางด้านซ้ายของสถานะ. ถ้าทั้งสองภาพถูกตั้งค่าให้โชว์, ภาพเล็กจะย่อขนาดอยู่ด้านขวาล่างของภาพใหญ่.
-    * **Key**: จะเป็นช่องกรอก URL ที่ใช้ให้รูปภาพโชว์ (แนะนำ, เนื่องจากคุณสามารถใช้ GIFs ได้ด้วย) หรือ จะเป็นชื่อของภาพที่จะใช้ก็ได้.
-      * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to upload images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
-        * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
-      * _Art Asset method:_ On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-        * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
-        * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
-    * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
+    * **Key**: จะเป็นช่องกรอก URL ที่ใช้ให้รูปภาพโชว์ (แนะนำ, เนื่องจากคุณสามารถใช้ GIFs ได้ด้วย) หรือ จะเป็นชื่อ Asset ภาพที่จะใช้ก็ได้.
+
+      * _ถ้าเลือกใช้ URL:_ ถ้ารูปภาพที่จะใช้อยู่ในอินเตอร์เน็ตแล้ว, วาง **ลิ้งค์โดยตรง** ในฟิล์ด
+      (โดยปกติคัดลอกลิ้งค์โดยตรง โดย กดคลิกขวา และ เลือก "คัดลอกลิ้งค์รูปภาพ"). ถ้ารูปภาพของคุณอยู่ในคอมพิวเตอร์ยังไม่ได้อัปโหลดไปที่อินเตอร์เน็ต, ให้ใช้เว็ปไซต์ที่สามารถอัปโหลดไฟล์รูปภาพได้ เช่น (Imgur, ImageShack, อื่น ๆ). ไม่ **แนะนำ** ให้ใช้ภาพที่อัปโหลดใน Discord หรือ ช่อง Discord, ลิ้งค์ของรูปภาพจะหมดอายุใน 2 สัปดาห์.
+        * ถ้าการเชื่อมต่อค้างที่ "กำลังอัพเดทสถานะ...", อาจจะเป็นเพราะว่า URL ที่กรอกในฟิล์ดนั้นยาวเกินไป หรือ มันไม่ใช่ลิ้งค์โดยตรง. ถ้าคุณแน่ใจว่าเป็นลิ้งค์โดยตรงแน่นอน, ให้ใช้ URL Shortner หรือ ย่อ URL.
+      * _ถ้าเลือกใช้ Art Asset:_ ที่หน้าเว็ปของที่ตั้งชื่อ application ตอนแรก กดเข้าไปที่ application ที่ตั้ง,เลือก Rich Presence ตามด้วย Art Assets และ อัปโหลดสัก 1 รูปภาพข้างล่าง Rich Presence Assets. ใน CustomRP, ให้มองหา **อัปโหลด Assets** ใน หน้าต่างไฟล์ (สามารถกด Ctrl+U แทนได้) หลังจากกดจะเปิดหน้าเว็ปให้อัปโหลดรูปภาพ(ถ้าช่อง ID กรอกแล้ว) ทำตามขั้นตอนข้างบน.
+        * โน้ต 1: แม้ว่าโดยปกติแล้วภาพจะสามารถใช้งานได้ทันที, แต่ในบางกรณีอาจจะต้องรอหลายชั่วโมงถึงจะใช้งานได้.
+        * โน้ต 2: คุณสามารถตั้งชื่อ Asset ได้มากกว่า 999 ตัวอักษร,แต่แอปจะซัพพอร์ตแค่ 256 ตัวอักษรเท่านั้น.
+    * **Text**: ตัวหนังสือที่จะโชว์ขึ้นเมื่อเอาเคอร์เซอร์เม้าส์ ไปชี้ที่รูปภาพ (หรือ กดค้างที่ภาพ ถ้าเป็นมือถือ).
   * **Buttons**:
     * **Text**: A text displayed on the button.
     * **URL**: A URL that the button will open upon clicking.
