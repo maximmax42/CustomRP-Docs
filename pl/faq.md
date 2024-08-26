@@ -4,6 +4,10 @@ description: Często zadawane pytania
 
 # ❓ FAQ
 
+{% hint style="warning" %}
+Ta strona może być nieaktualna. Aktualne informacje można znaleźć na [angielskiej wersji tej strony](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq).
+{% endhint %}
+
 ## Pytania
 
 ### Da się dodać więcej niż dwa guziki?

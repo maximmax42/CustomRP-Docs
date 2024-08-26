@@ -2,7 +2,11 @@
 description: RTFM
 ---
 
-# 🛠 Ustawienie
+# 🛠️ Ustawienie
+
+{% hint style="warning" %}
+Ta strona może być nieaktualna. Aktualne informacje można znaleźć na [angielskiej wersji tej strony](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up).
+{% endhint %}
 
 Jeśli masz jakieś problemy sprawdź [FAQ](faq.md).
 
@@ -36,7 +40,6 @@ Zanim zaczniesz upewnij się że masz włączony status aktywności w ustawienia
 * Kliknij **Zaktualizuj status** (lub **Połacz**, jeśli nie jesteś jeszcze połączony).
 * Gratulacje, jest super!
 
-
 ### Używam więcej niż jednego klienta Discord, co mam zrobić?
 
 Jeśli masz więcej niż jednego klienta Discord i chcesz, aby Twój status pojawiał się na innym koncie niż to, które aplikacja wybrała automatycznie, kliknij **Rozłącz**, następnie przytrzymaj klawisze Ctrl+Shift na klawiaturze i kliknij **Połącz**. Pojawi się okienko z wpisywaną liczbą, należy wpisać cyfrę 1, zamknąć okienko i ponownie kliknąć **Połącz**, już bez Ctrl+Shift. W przypadku, gdy to znowu złe konto, spróbuj numeru 0, potem 2 i tak dalej aż do 9.
@@ -59,4 +62,3 @@ Jeśli używasz 3 lub więcej kont jednocześnie, to... po co? Ale też jeśli w
 
 * Jeśli nie chcesz ustawiać małego lub dużego obrazu, pozostaw wszystkie powiązane pola w programie puste.
 * Jeśli duży obraz nie jest ustawiony, ustawienia małego obrazu będą ignorowane.
-
