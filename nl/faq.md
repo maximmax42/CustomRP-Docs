@@ -2,7 +2,11 @@
 description: Stop alsjeblieft met me dezelfde vragen te stellen in de server.
 ---
 
-# ❓ Veelgestelde Vragen
+# ❓ Veelgestelde vragen
+
+{% hint style="warning" %}
+Deze pagina kan verouderd zijn. Raadpleeg de [Engelstalige versie van deze pagina](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) voor de meest recente informatie.
+{% endhint %}
 
 ## Vragen
 
@@ -57,14 +61,15 @@ Je hebt mogelijk een time-out van Discord gekregen vanwege het vaak verbinden/wi
 ### De app zegt "Verkeerde ID?" / "Is Discord actief?" of maakt oneindig verbinding, hoewel ik zeker weet dat ik alles goed heb gedaan en Discord actief is.
 
 Hier zijn enkele dingen die je kunt proberen:
-- **Zorg ervoor dat je een standalone Discord-client gebruikt (niet in de browser).**
-- Herstart je pc. Tip: een pc-herstart lost vaak veel problemen op.
-- Als je BetterDiscord/Vencord/etc geïnstalleerd hebt, verwijder het tijdelijk, laat CustomRP minstens één keer verbinding maken met Discord en installeer het dan opnieuw.
-- Als je meerdere Discord-clients gebruikt, sluit dan tijdelijk alle clients behalve degene waarop je de aanwezigheid wilt hebben.
-- Voer CustomRP uit als administrator.
-- Voeg `%appdata%\CustomRP` of, in het geval van een draagbare versie, de map waarin je CustomRP hebt uitgepakt, toe aan de uitzonderingen van de firewall en/of antivirusprogramma's en herstart je pc volledig.
-  - Als je niet zeker weet of je een antivirusprogramma hebt, heb je er hoogstwaarschijnlijk een - Windows Defender is aanwezig op elke computer met Windows 10/11.
-- Herinstalleer Discord.
+
+* **Zorg ervoor dat je een standalone Discord-client gebruikt (niet in de browser).**
+* Herstart je pc. Tip: een pc-herstart lost vaak veel problemen op.
+* Als je BetterDiscord/Vencord/etc geïnstalleerd hebt, verwijder het tijdelijk, laat CustomRP minstens één keer verbinding maken met Discord en installeer het dan opnieuw.
+* Als je meerdere Discord-clients gebruikt, sluit dan tijdelijk alle clients behalve degene waarop je de aanwezigheid wilt hebben.
+* Voer CustomRP uit als administrator.
+* Voeg `%appdata%\CustomRP` of, in het geval van een draagbare versie, de map waarin je CustomRP hebt uitgepakt, toe aan de uitzonderingen van de firewall en/of antivirusprogramma's en herstart je pc volledig.
+  * Als je niet zeker weet of je een antivirusprogramma hebt, heb je er hoogstwaarschijnlijk een - Windows Defender is aanwezig op elke computer met Windows 10/11.
+* Herinstalleer Discord.
 
 Als niets heeft geholpen, kan ik helaas niets anders voorstellen, sorry.
 

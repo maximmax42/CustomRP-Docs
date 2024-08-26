@@ -4,6 +4,10 @@ description: RTFM
 
 # 🛠️ Instellen
 
+{% hint style="warning" %}
+Deze pagina kan verouderd zijn. Raadpleeg de [Engelstalige versie van deze pagina](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) voor de meest recente informatie.
+{% endhint %}
+
 Als je fouten ondervindt, bekijk dan de [Veelgestelde Vragen](faq.md).
 
 Voordat je begint met instellen, zorg ervoor dat je een standalone Discord-client hebt (**niet in de browser**) en dat je de activiteitsstatus in Discord-instellingen hebt ingeschakeld:
