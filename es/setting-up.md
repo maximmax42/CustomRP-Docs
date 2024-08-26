@@ -2,7 +2,11 @@
 description: RTFM
 ---
 
-# 🛠 Configurando
+# 🛠️ Configurando
+
+{% hint style="warning" %}
+Esta página puede estar obsoleta. Consulte la [versión en inglés de esta página](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) para obtener información actualizada.
+{% endhint %}
 
 Si tienes algun problema, visita las [Preguntas Más Frecuentes](faq.md).
 
@@ -21,7 +25,7 @@ Antes de configurar, asegurate de haber habilitado el estado de actividad en la 
 * Copia la **Application ID** y copialo en el campo de **ID** en CustomRP, luego dale a **Conectar**. Si lo hiciste bien, tu estado de Discord debería decir "Jugando a **\[Nombre de la App]**".
   * Nota: Si tienes un estado personalizado (el que tiene emoji), tendrá prioridad sobre tu CustomRP. Sin embargo, se verá en la ventana emergente del perfil.
 
-![image](https://cdn.discordapp.com/attachments/1030245442358886455/1030250456749965322/Captura_de_pantalla_2022-10-13_174558.png)
+![image](https://cdn.discordapp.com/attachments/1030245442358886455/1030250456749965322/Captura\_de\_pantalla\_2022-10-13\_174558.png)
 
 * En la página de su aplicación, vaya a Rich Presence -> Art Assets y cargue al menos una imagen en Rich Presence Assets si desea utilizarlos. En CustomRP, hay un práctico botón **Cargar activos** en el menú Archivo (también puede usar Ctrl+U) que lo llevará allí si su campo de ID está configurado correctamente.
   * Alternativamente, puede simplemente insertar una URL a la imagen en el campo **Key**.
@@ -36,7 +40,7 @@ Antes de configurar, asegurate de haber habilitado el estado de actividad en la 
 
 ### Uso más de un cliente de Discord, ¿qué hago?
 
-Si tienes más de un cliente de Discord y quieres que su presencia se muestre en una cuenta diferente de la aplicación elegida automáticamente, presiona **Desconectar**, luego manten presionadas las teclas Ctrl+Shift en tu teclado y presiona **Conectar* *. Aparecerá una ventana con la entrada de un número, ingresa el número 1, cierra la ventana y presiona **Conectar** nuevamente, sin Ctrl+Shift. En caso de que vuelva a ser una cuenta incorrecta, intenta con el número 0, luego con el 2 y así sucesivamente hasta llegar al 9.
+Si tienes más de un cliente de Discord y quieres que su presencia se muestre en una cuenta diferente de la aplicación elegida automáticamente, presiona **Desconectar**, luego manten presionadas las teclas Ctrl+Shift en tu teclado y presiona \*_Conectar_ \*. Aparecerá una ventana con la entrada de un número, ingresa el número 1, cierra la ventana y presiona **Conectar** nuevamente, sin Ctrl+Shift. En caso de que vuelva a ser una cuenta incorrecta, intenta con el número 0, luego con el 2 y así sucesivamente hasta llegar al 9.
 
 Ten en cuenta que si tienes varios clientes de Discord ejecutándose al inicio, es posible que el número de tubería asignado a cada cliente no sea persistente de inicio a inicio y puede cambiar según el cliente que se inició primero. Para evitar eso, puedes iniciar clientes adicionales manualmente o usar el Programador de tareas de Windows para retrasar el inicio de los clientes.
 

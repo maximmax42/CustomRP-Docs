@@ -1,5 +1,9 @@
 # ❓ Preguntas Más Frecuentes
 
+{% hint style="warning" %}
+Esta página puede estar obsoleta. Consulte la [versión en inglés de esta página](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) para obtener información actualizada.
+{% endhint %}
+
 ## Preguntas
 
 ### Puedo añadir mas de dos botones?
@@ -51,12 +55,13 @@ Es posible que haya obtenido un tiempo de espera de Discord debido a la conexió
 ### La aplicación dice "¿ID Incorrecto?"/"¿Se está ejecutando Discord?" o se conecta indefinidamente aunque estoy seguro de que hice todo bien y Discord se está ejecutando.
 
 Aquí tienes algunas cosas que puedes probar:
-- **Asegúrate de estar usando un cliente independiente de Discord (no en el navegador).**
-- Si tienes instalado BetterDiscord/Vencord/etc, desinstálalo, permite que CustomRP se conecte a Discord al menos una vez y luego vuelve a instalarlo.
-- Si usas varios clientes de Discord, cierra temporalmente todos excepto el que deseas usar para la RichPresence.
-- Ejecuta CustomRP como administrador (Click Derecho al programa y opción "Ejectuar como Administrador).
-- Agrega `%appdata%\CustomRP` o, en caso de que estés utilizando una versión portátil, la carpeta donde hayas extraído CustomRP, a las excepciones del firewall y/o antivirus, luego reinicia tu PC por completo.
-- Reinstala Discord.
+
+* **Asegúrate de estar usando un cliente independiente de Discord (no en el navegador).**
+* Si tienes instalado BetterDiscord/Vencord/etc, desinstálalo, permite que CustomRP se conecte a Discord al menos una vez y luego vuelve a instalarlo.
+* Si usas varios clientes de Discord, cierra temporalmente todos excepto el que deseas usar para la RichPresence.
+* Ejecuta CustomRP como administrador (Click Derecho al programa y opción "Ejectuar como Administrador).
+* Agrega `%appdata%\CustomRP` o, en caso de que estés utilizando una versión portátil, la carpeta donde hayas extraído CustomRP, a las excepciones del firewall y/o antivirus, luego reinicia tu PC por completo.
+* Reinstala Discord.
 
 Si nada de eso ayudó, lamentablemente no puedo sugerirte nada más, perdón.
 
