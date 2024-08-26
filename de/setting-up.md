@@ -2,7 +2,11 @@
 description: RTFM
 ---
 
-# 🛠 Einrichtung
+# 🛠️ Einrichtung
+
+{% hint style="warning" %}
+Diese Seite könnte veraltet sein. Bitte lesen Sie die [englische Version dieser Seite](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) für die aktuellen Informationen.
+{% endhint %}
 
 Wenn du irgendwelche Fehler hast, lese bitte das [FAQ](faq.md).
 
