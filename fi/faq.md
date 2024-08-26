@@ -4,6 +4,10 @@ description: Usein Kysyttyjä Kysymyksiä
 
 # ❓ UKK
 
+{% hint style="warning" %}
+Tämä sivu saattaa olla vanhentunut. Katso tämän sivun [englanninkielisestä versiosta](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) ajantasaiset tiedot.
+{% endhint %}
+
 ## Kysymyksiä
 
 ### Voinko lisätä yli kaksi painiketta?
@@ -44,7 +48,7 @@ Tapa sovellus tehtävänhlalinnassa, poista `%localappdata%\maximmax42` kansio, 
 
 ### Sovellus on yhdistetty, mutta en nää tilaa Discord tililläni.
 
-Tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä. &#x20;
+Tarkista että olet valtuuttanut Discordin näyttämään toimintasi tilaviestinä.
 
 <figure><img src=".gitbook/assets/settings.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,7 +58,7 @@ Sinä ehkä sait aikakatkaisun Discordilta sen takia että yhdistit ja katkaisit
 
 ### Sovellus sanoo "väärä ID?/Onko Discord käynnissä?" Tai yhdistää loputtomiin vaikka olen varma että tein kaiken oikein ja Discord on käynnissä.
 
-BetterDiscord usein tekee tämän. Jos sinulla on se, poista se, anna CustomRP'n yhdistää Discordiin ainakin kerran, ja asenna BetterDiscord uusiksi. Jos et, käynnistä CustomRP järjestelmänvalvojana. Jos se ei auta, lisää  `%appdata%\CustomRP` tai, jos käytät portable-versiota, kansio johon pursit BetterDiscordin (ja ehkä Discord) palomuurin tai antiviiruksesi poikkeuksiin, ja käynnistä tietokoneesi uudestaan (voit myös yrittää käynnistää vain Discordin ja CustomRP'n uudelleen, Mutta yli 95% ajasta se ei toimi. Voit myös yrittää sulkea kaikki Discord ohjelmasi paitsi pää versiosi. Jos se ei auta, minulla ei ole mitään hajua miten korjata sitä, anteeksi.
+BetterDiscord usein tekee tämän. Jos sinulla on se, poista se, anna CustomRP'n yhdistää Discordiin ainakin kerran, ja asenna BetterDiscord uusiksi. Jos et, käynnistä CustomRP järjestelmänvalvojana. Jos se ei auta, lisää `%appdata%\CustomRP` tai, jos käytät portable-versiota, kansio johon pursit BetterDiscordin (ja ehkä Discord) palomuurin tai antiviiruksesi poikkeuksiin, ja käynnistä tietokoneesi uudestaan (voit myös yrittää käynnistää vain Discordin ja CustomRP'n uudelleen, Mutta yli 95% ajasta se ei toimi. Voit myös yrittää sulkea kaikki Discord ohjelmasi paitsi pää versiosi. Jos se ei auta, minulla ei ole mitään hajua miten korjata sitä, anteeksi.
 
 ### Sovellus toimi ennen, sammui virheen takia ja ei enään käynnisty.
 

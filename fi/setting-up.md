@@ -2,7 +2,11 @@
 description: LVM
 ---
 
-# 🛠 Järjestely
+# 🛠️ Järjestely
+
+{% hint style="warning" %}
+Tämä sivu saattaa olla vanhentunut. Katso tämän sivun [englanninkielisestä versiosta](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) ajantasaiset tiedot.
+{% endhint %}
 
 Jos koet ongelmia, katso [UKK](faq.md#questions).
 
@@ -43,7 +47,7 @@ Muista että jos sinun monta Discord ohjelmaa käynnistyy tietokoneesi mukana, p
 Jos sinulla on 2 tiliä jota käytät samaan aikaan ja haluat jokaisen niistä käyttämään eri tilaa, tee nämä askeleet;
 
 * Asettele oma pää-tilisi ensin näillä ohjeilla.
-* Lataa uusin **portable (.zip)** versio CustomRP'stä (joko  [nettisivulta](https://www.customrp.xyz) tai [GitHub julkaisu sivulta](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) ja pura se minne vaan.
+* Lataa uusin **portable (.zip)** versio CustomRP'stä (joko [nettisivulta](https://www.customrp.xyz) tai [GitHub julkaisu sivulta](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) ja pura se minne vaan.
   * Tämä vain toimii versioilla 1.16 ja vanhemmilla.
 * Avaa `Start Second Instance.bat` tai tee oikotie CustomRP.exe en argumentilla `--second-instance` (tai `-2`).
 * Asettele sovellus samalla tavalla mitä teit pää-instanssilla.
