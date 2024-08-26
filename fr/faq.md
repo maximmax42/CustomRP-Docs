@@ -4,6 +4,10 @@ description: Question posées fréquement
 
 # ❓ FAQ
 
+{% hint style="warning" %}
+Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) pour obtenir les informations les plus récentes.
+{% endhint %}
+
 ## Questions
 
 ### Puis-je ajouter plus de 2 boutons ?
@@ -55,7 +59,6 @@ Vous avez peut-être obtenu un délai d'attente de Discord en raison de la conne
 ### L'application indique "Mauvaise ID ?"/"Est-ce que Discord est en cours d'exécution ?" ou se connecte indéfiniment même si je suis sûr d'avoir tout fait correctement et que Discord fonctionne.
 
 Parfois, cela est causé par BetterDiscord. Si vous l'avez installé, désinstallez-le, laissez CustomRP se connecter à Discord au moins une fois, puis réinstallez BD. Si ce n'est pas le cas, essayez d'exécuter CustomRP en tant qu'administrateur. Si cela ne vous aide pas, essayez d'ajouter `%appdata%\CustomRP` ou, si vous utilisez une version portable, le dossier dans lequel vous avez extrait CustomRP (et peut-être Discord) aux exceptions de pare-feu/antivirus, puis redémarrez votre PC (vous pouvez essayer de redémarrer uniquement Discord et CustomRP, mais dans 95% des cas, cela ne fonctionne pas). Une autre chose que vous pouvez essayer est de quitter temporairement tous les clients Discord sauf votre principal. Si cela ne vous aide pas, je n'ai jamais pu comprendre ce qui cause cela, désolé.
-
 
 ### L'application fonctionnait auparavant, mais maintenant elle plante et elle ne se lance plus du tout.
 
