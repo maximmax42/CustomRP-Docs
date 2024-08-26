@@ -2,11 +2,15 @@
 description: RTFM
 ---
 
-# 🛠 Configurare
+# 🛠️ Configurare
+
+{% hint style="warning" %}
+Această pagină ar putea fi depășită. Vă rugăm să consultați [versiunea în limba engleză a acestei pagini](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) pentru informații actualizate.
+{% endhint %}
 
 Dacă întâmpinați erori, consultați [FAQ](faq.md).
 
-Înainte de configurare, asigurați-vă că ați activat starea activității în setările Discord:&#x20;
+Înainte de configurare, asigurați-vă că ați activat starea activității în setările Discord:
 
 <figure><img src="https://user-images.githubusercontent.com/2225711/188219661-49713f90-fa76-4645-b04a-fc1bc0f029bd.png" alt=""><figcaption></figcaption></figure>
 

@@ -4,6 +4,10 @@ description: Întrebări frecvente
 
 # ❓ FAQ
 
+{% hint style="warning" %}
+Această pagină ar putea fi depășită. Vă rugăm să consultați [versiunea în limba engleză a acestei pagini](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) pentru informații actualizate.
+{% endhint %}
+
 ## Întrebări
 
 ### Pot să adaug mai mult de 2 butoane?
