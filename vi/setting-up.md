@@ -2,7 +2,11 @@
 description: Vui lòng đọc cái hướng dẫn này.
 ---
 
-# 🛠 Thiết Lập
+# 🛠️ Thiết Lập
+
+{% hint style="warning" %}
+Trang này có thể đã lỗi thời. Vui lòng tham khảo [phiên bản tiếng Anh của trang này](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) để biết thông tin cập nhật.
+{% endhint %}
 
 Nếu bạn gặp bất kì lỗi nào, hãy xem [Câu Hỏi Thường Gặp](faq.md).
 

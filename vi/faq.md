@@ -4,6 +4,10 @@ description: Vui lòng không được hỏi tôi những câu hỏi này ở m�
 
 # ❓ Câu Hỏi Thường Gặp
 
+{% hint style="warning" %}
+Trang này có thể đã lỗi thời. Vui lòng tham khảo [phiên bản tiếng Anh của trang này](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) để biết thông tin cập nhật.
+{% endhint %}
+
 ## Câu Hỏi
 
 ### Đây có phải là một virus? Phần mềm diệt virus/VirusTotal/v.v nói nó có virus.
@@ -61,12 +65,13 @@ Bạn có thể đã hết thời gian chờ từ Discord bởi vì kết nối/
 ### Ứng dụng nói "ID sai?"/"Bạn đã khởi động Discord chưa?" hoặc kết nối vô thời hạn kể cả khi tôi chắc chắn tôi làm mọi thứ đúng và Discord đang chạy.
 
 Dưới đây là một số điều bạn nên thử:
-- **Đảm bảo bạn đang chạy ứng dụng Discord độc lập (không ở trình duyệt).**
-- Nếu bạn có cài BetterDiscord/Vencord/v.v, gỡ cài đặt nó, để CustomRP kết nối tới Discord ít nhất một lần và sau đó cài đặt chúng lại.
-- Nếu bạn sử dụng nhiều ứng dụng Discord, tạm thời thoát tất cả chúng trừ ứng dụng mà bạn muốn presence xuất hiện.
-- Chạy CustomRP với quyền quản trị viên.
-- Thêm `%appdata%\CustomRP` hoặc, trong trường hợp bạn sử dụng phiên bản di động, cặp mà bạn giải nén CustomRP, vào ngoại lệ của tường lửa và/hoặc phần mềm chống virus, sau đó khởi động lại PC của bạn.
-- Cài đặt lại Discord.
+
+* **Đảm bảo bạn đang chạy ứng dụng Discord độc lập (không ở trình duyệt).**
+* Nếu bạn có cài BetterDiscord/Vencord/v.v, gỡ cài đặt nó, để CustomRP kết nối tới Discord ít nhất một lần và sau đó cài đặt chúng lại.
+* Nếu bạn sử dụng nhiều ứng dụng Discord, tạm thời thoát tất cả chúng trừ ứng dụng mà bạn muốn presence xuất hiện.
+* Chạy CustomRP với quyền quản trị viên.
+* Thêm `%appdata%\CustomRP` hoặc, trong trường hợp bạn sử dụng phiên bản di động, cặp mà bạn giải nén CustomRP, vào ngoại lệ của tường lửa và/hoặc phần mềm chống virus, sau đó khởi động lại PC của bạn.
+* Cài đặt lại Discord.
 
 Nếu như vậy không giúp được, tôi không thể đề nghị cách gì khác, xin lỗi.
 
