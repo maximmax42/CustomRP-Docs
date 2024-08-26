@@ -2,7 +2,11 @@
 description: RTFM
 ---
 
-# 🛠 시작하기
+# 🛠️ 시작하기
+
+{% hint style="warning" %}
+이 페이지는 오래되었을 수 있습니다. 최신 정보는 [이 페이지의 영문 버전](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up)을 참조하세요.
+{% endhint %}
 
 만약 어떤 문제를 겪고있다면, [자주 묻는 질문 / 문제 해결](faq.md) 페이지를 확인하세요.
 
