@@ -4,11 +4,11 @@ description: Häufig gestellte Fragen
 
 # ❓ FAQ
 
-## Fragen
-
 {% hint style="warning" %}
 Diese Seite könnte veraltet sein. Bitte lesen Sie die [englische Version dieser Seite](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) für die aktuellen Informationen.
 {% endhint %}
+
+## Fragen
 
 ### Kann ich mehr als Zwei Knöpfe hinzufügen?
 
