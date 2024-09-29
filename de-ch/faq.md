@@ -36,32 +36,32 @@ T chnöpf funktionieret ufem Discord-Client wo du bruchsch meistens ned wege Dis
 
 ### I ha CustomRP installiert, aber es startet ned.
 
-Höchstwarschindli verhinderet din Antivirus dä start. Du muesch den dä Ordner "%appdata%\CustomRP" it usnahme adde.
+Warschindli verhindert din Antivirus dä start. Du muesch den dä Ordner "%appdata%\CustomRP" it usnahme adde.
 
-### Ich habe CustomRP installiert, Analytiks erlaubt und die App funktioniert nicht mehr.
+### I ha CustomRP installiert, analytic erlaubt und t app funktioniärt nüme.
 
-Beende die App im Task Manager, Lösche den `%localappdata%\maximmax42` Ordner, starte die App neu und erlaube die Analytiks nicht.
+Schlüss t app im Task Manager, lösch dä `%localappdata%\maximmax42` Ordner, start t app neu und erlaub t analytiks ned.
 
-### Die App hat sich verbunden, aber Ich sehe den Status nicht in meinem Profil.
+### T app isch verbunde, aber i gseh dä status ned i mim profil.
 
-Stelle sicher, dass du den Aktivitätsstatus in den Discord-Einstellungen aktiviert hast:
+Ga it Discord istellige und check das du Activitätstatus a gstelt hesch.
 
 <figure><img src="https://user-images.githubusercontent.com/115729033/195649622-ab1f09fc-4499-4421-a515-ba869fc40470.PNG" alt=""><figcaption></figcaption></figure>
 
-### Die App hat funktioniert, aber jetzt Verbindet er sich unendlich.
+### T app funktioniert aber verbinded sich unendlich lang.
 
-Es kann sein, dass du eine Zeitüberschreitung von Discord erhalten hast, weil du zu häufig die verbinden oder die Präsenz wechseln. Trenne die Verbindung, warte 5-10 Minuten und versuche erneut, dich zu verbinden. Ein Neustart von Discord könnte auch helfen.
+Es cha si das du en timeout vo discord becho hesch will du zu hüffig din status geänderet hesch oder versuecht hesch dichs verbinde. Trenn t verbindig und wart 5-10 min versuechs den nomal. en neustart vo discord chönti au helfe.
 
-### Die App sagt "Falsche ID?"/"Läuft Discord?" oder verbindet sich auf unbestimmte Zeit, obwohl ich sicher bin, dass ich alles richtig gemacht habe und Discord läuft.
+### T app zeigt "Falschi ID"/"lauft Discord?" oder verbinded sich uf umbestimti ziit obwohl ich mir sicher bin das i alles richtig gmacht ha und discord anne isch. 
 
-Manchmal wird dies durch BetterDiscord verursacht. Wenn du es installiert hast, deinstallieren es, lasse CustomRP mindestens einmal eine Verbindung zu Discord herstellen und installieren dann BD wieder. Wenn nicht, versuche CustomRP als Administrator zu starten. Wenn das nicht hilft, versuche, `%appdata%\CustomRP` oder, falls du eine portable Version verwendest, den Ordner, in dem du CustomRP extrahiert hast (und vielleicht Discord), zu den Firewall-/Antivirus-Ausnahmen hinzuzufügen, und starte dann deinen gesamten PC neu (Du könntest versuchen, nur Discord und CustomRP neu zu starten, aber in 95% der Fälle funktioniert das nicht). Du könntest auch versuchen, alle Discord-Clients außer Ihrem Hauptclient vorübergehend zu beenden. Wenn das nicht hilft, konnte ich nie herausfinden, was die Ursache dafür ist, tut mir leid.
+Das cha mängisch wege Betterdiscord passiere. wenn dus installiert hesch, deinstalliers, la CustomRp mindestens eimal e verbindig zu discord herstelle und den installier BD wider. Wenn ned versuäch CustomRP als Administrator zstarte. Wenn das ned hilft versuech `%appdata%\CustomRP` oder, falls du e portabli version benuzisch, dä ordner wo du customRP hesch zum antivirus usnahme adde und start dä PC neu. (Du chöntisch au versueche nur discord und CustomRP zstarte, aber 95% wirds ned funktioniere). Versuech au alli Discord Clients usser dim HauptClient für jetzt zuä mache. Wenn das ned hilft chanis au nie usefinde warum es ned gaht, soory. 
 
-### Die App hat davor funktioniert, aber dann ist sie gecrasht und startet jetzt gar nicht mehr.
+### T app hat vorher funktioniert aber nacheme crash startets nüme.
 
-Vielleicht hast du einen langen Text (oder einen Text in einer Sprache, die nicht lateinische Buchstaben verwendet) in ein Feld eingefügt, und das hat die Anwendung zum Absturz gebracht. Um dies zu beheben, drücke Win+R, gebe `%localappdata%\maximmax42` ein und löschen oder benenne Ordner mit CustomRP im Namen um, dann starte die App. Beachte, dass die Anwendung dadurch vollständig zurückgesetzt wird.
+Vilicht hesch du en langä Text (oder en Text usere sprach wo ned lateinischi Buächstabe brucht) i es feld ineta, und das het t app zum crashe bracht. Zum das fixe, Win+R und schrib `%localappdata%\maximmax42`, lösch oder bennän dä CustomRP Ordner um und start t app neu. Nacher isch aber t app voll zrug gsetzt. 
 
-### Die App stürzt beim Aktualisieren/Verbinden/usw. ständig ab.
+### T app stürtzt nach em Aktualisiere/Verbinde/usw immer wider ab. 
 
-Wenn du in der Lage bist, die Anwendung zu starten und einen Absturzbericht zu erhalten, und es heißt `System.IO.FileNotFoundException: Could not load file or assembly...`, installiere die Anwendung bitte neu.
+Wenn du t app chasch starte und en crash bricht bechunsch "`System.IO.FileNotFoundException: Could not load file or assembly...`, installier t app neu. 
 
-Wenn du keine Antwort auf deine Frage/dein Problem findest, senden eine Nachricht in den `#Support`-Channel auf dem [CustomRP Discord Server](https://www.customrp.xyz/discordserver), oder schreibe mir eine Direkt-Nachricht auf Discord (maximmax42#5572) oder [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Wenn du kei Antwort zu dine Frage/Problem gfunde hesch, schick e nachricht im `#Support`-Channel uf em [CustomRP Discord Server](https://www.customrp.xyz/discordserver), oder schrib mir e Direkt nachricht uf discord (maximmax42) oder [open an issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
