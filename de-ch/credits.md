@@ -1,3 +1,3 @@
 # ⭐ Credits
 
-Translated by dragon GRaf https://github.com/dragongrafdiscord/mycustomrichpresence .
+Translated by [dragon GRaf](https://github.com/dragongrafdiscord/mycustomrichpresence).
