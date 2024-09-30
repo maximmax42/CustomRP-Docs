@@ -6,24 +6,24 @@ description: RTFM
 
 Wenn du irgendwelchi fähler hesch lis bitte [FAQ](faq.md).
 
-Vergewisser dich vor dem Einrichten, dass du den Aktivitätsstatus in den Discord-Einstellungen aktiviert hast:
+Stell vorem irichte dä Aktivitätstatus i dä Discord Istellige ah:
 
 <figure><img src="https://user-images.githubusercontent.com/115729033/195649622-ab1f09fc-4499-4421-a515-ba869fc40470.PNG" alt=""><figcaption></figcaption></figure>
 
-## Einrichtungsvorgang
+## Irichte
 
-* Gehe zu https://discord.com/developers/applications/.
-* Drücke **New Application** in der oberen rechten Ecke.
+* Ga zu https://discord.com/developers/applications/.
+* Click uf **New Application** im oberä rechte eg.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
-* Wähle den Namen für die Anwendung, er wird nach "Spielt" im Status angezeigt; drücke **Create**.
-* Kopiere die **Application ID** und füge sie in das Feld **ID** in Custom RP ein, dann drücke **Verbinden**. Wenn du das richtig gemacht hast, sollte dein Status in Discord jetzt "Spielt **\[Name der app]** anzeigen".
-  * Hinweis: Wenn du einen benutzerdefinierten Status eingestellt hast (der mit dem Emoji), hat dieser Vorrang vor deinem CustomRP-Status. Er wird jedoch im Profil-Popup angezeigt.
+* Wähl dä name fürt app, dä wird nach em "spillt" im Status ahzeigt; click uf **Create**.
+* Kopier t **Application ID** und mach si is Feld **ID** im CustomRP, dänn click uf **Verbindä**. Wenn du alles richtig gmacht hesch, söti din status in Discord jetzt "Spielt **\[Name vo dä app]** azeige".
+  * Hiwiis: Wenn du en eigene status i stellt hesch (dä mit dä emojis), hät dä vorrang vor CustomRP. Wird aber bim Profil-Popup azeigt.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* Auf deiner Anwendungsseite, gehe zu Rich Presence -> Art Assets und lade mindestens ein Bild unter Rich Presence Assets hoch, wenn du dieses verwenden möchtest. In CustomRP gibt es eine praktische Schaltfläche **Assets Hochladen** im Menü (Du kannst auch Ctrl+U verwenden), das wird dich auf die richtige Seite bringen, insofern deine ID richtig eingestellt ist.
+* Uf dinere [appssite](https://discord.com/developers/applications/), gä zu Rich Presence -> Art Assets und lad mindestens eis bild unter Rich Presence Assets ufä, wenn du die bruche wilsch. I CustomRP git es e praktischi Schaltflächi **Assets ufelade** im Menü (Du kannst auch Ctrl+U verwenden), das wird dich auf die richtige Seite bringen, insofern deine ID richtig eingestellt ist.
   * Alternativ kannst du auch einfach eine URL zu dem Bild in das Feld **Key** eingeben.
   * Hinweis: Du kannst deinen Assets zwar einen beliebigen Namen mit bis zu 999 Symbolen geben, die API akzeptiert jedoch nur Namen mit maximal 256 Symbolen.
 * Navigiere zur Seite Visualizer, um die Felder **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max** einzurichten. Alle diese Angaben sind optional.
