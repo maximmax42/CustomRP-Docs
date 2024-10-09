@@ -24,9 +24,9 @@ Stell vorem irichte dä Aktivitätstatus i dä Discord Istellige ah:
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
 * Uf dinere [appssite](https://discord.com/developers/applications/), gä zu Rich Presence -> Art Assets und lad mindestens eis bild unter Rich Presence Assets ufä, wenn du die bruche wilsch. I CustomRP git es e praktischi Schaltflächi **Assets ufelade** im Menü (Du chasch au Ctrl+U bruche), das wird di uf t richtigi site bringe, solang dini ID richtig istellt isch.
-  * Alternativ kannst du auch einfach eine URL zu dem Bild in das Feld **Key** eingeben.
-  * Hinweis: Du kannst deinen Assets zwar einen beliebigen Namen mit bis zu 999 Symbolen geben, die API akzeptiert jedoch nur Namen mit maximal 256 Symbolen.
-* Navigiere zur Seite Visualizer, um die Felder **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max** einzurichten. Alle diese Angaben sind optional.
+  * Alternativ chasch du au eifach ä URL zum Bild is feld igä.
+  * Hiwiis: Du chasch dini Assets zwar en beliebige Namä bis und mit 999 symbol gä, t API akzeptiert jedo nur name mit max 256 Symbol.
+* Ga zu dä Site Visualizer, zum t Felder **State, Details, Large Image Key, Large Image Text, Small Image Key, Small Image Text, Party Size, Party Max** i zrichte. Alli die agabe sind optional.
 * Wenn du die für dich passende Einstellung gefunden hast, kopiere die Werte in die entsprechenden Felder von CustomRP.
   * Tipp: Du kannst mit dem Mauszeiger über fast jedes Steuerelement in der App hovern (einschließlich der Label-Zeile **Details**) und du erhälten einen Tooltip!
 * Wenn du auch Knöpfe einrichten möchtest, fülle die beiden Felder Text und URL aus.
