@@ -16,7 +16,7 @@ You might be asking then, why do some antiviruses and VirusTotal say there's a v
 
 No, it's a limitation of Discord.
 
-### Can I use a different type of activity (e.g. listening, watching, streaming)?
+### Can I use a Streaming type of activity?
 
 No, it's also a Discord limitation.
 
@@ -68,7 +68,7 @@ Here are some things for you to try:
 
 If nothing helped, I can't suggest anything else, sorry.
 
-### The app is stuck on "Updating presence..."
+### The app says "The image URL is too long" or the app is stuck on "Updating presence..."
 
 Check the image URLs, they're either too long, or not actually direct links.
 
