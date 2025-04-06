@@ -50,6 +50,10 @@ Make sure you have enabled activity status in Discord settings:
 
 ![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
 
+If "Share your activity status" was disabled, you will also need to manually enable "Activity status" setting in privacy settings for every server with over 200 members you're in.
+
+<div><figure><img src=".gitbook/assets/2025-04-06_18-16-00_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
 ### The app was working, but now it's connecting indefinitely.
 
 You might have gotten a timeout from Discord because of connecting/changing presence a lot. Disconnect, wait 5-10 minutes, try to connect again. Restarting Discord might help too.
@@ -57,14 +61,15 @@ You might have gotten a timeout from Discord because of connecting/changing pres
 ### The app says "Wrong ID?"/"Is Discord running?" or connects indefinitely even though I'm sure I did everything right and Discord is running.
 
 Here are some things for you to try:
-- **Make sure you're running a standalone Discord client (not in browser).**
-- Restart your PC. Pro tip: restarting PC solves a lot of problems.
-- If you have BetterDiscord/Vencord/etc installed, uninstall it, let CustomRP connect to Discord at least once and then install it back.
-- If you use multiple Discord clients, temporarily quit all of them except the one you want the presence to be on.
-- Run CustomRP as administrator.
-- Add `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to, to firewall and/or antivirus exceptions, then restart your whole PC.
-  - If you don't know whether you have an antivirus or not, you most likely do - Windows Defender is on every Windows 10/11 computer.
-- Reinstall Discord.
+
+* **Make sure you're running a standalone Discord client (not in browser).**
+* Restart your PC. Pro tip: restarting PC solves a lot of problems.
+* If you have BetterDiscord/Vencord/etc installed, uninstall it, let CustomRP connect to Discord at least once and then install it back.
+* If you use multiple Discord clients, temporarily quit all of them except the one you want the presence to be on.
+* Run CustomRP as administrator.
+* Add `%appdata%\CustomRP` or, in case you're using a portable version, the folder you extracted CustomRP to, to firewall and/or antivirus exceptions, then restart your whole PC.
+  * If you don't know whether you have an antivirus or not, you most likely do - Windows Defender is on every Windows 10/11 computer.
+* Reinstall Discord.
 
 If nothing helped, I can't suggest anything else, sorry.
 

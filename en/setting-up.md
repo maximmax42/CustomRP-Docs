@@ -8,9 +8,13 @@ If you experience any errors, check out [FAQ](faq.md).
 
 Before setting up, make sure you have a standalone Discord client (**not in browser**) and have enabled activity status in Discord settings:
 
-![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
+![](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
 
-## Setup process
+If "Share your activity status" was disabled, you will also need to manually enable "Activity status" setting in privacy settings for every server with over 200 members you're in.
+
+<div align="center"><figure><img src=".gitbook/assets/2025-04-06_18-16-00_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+***
 
 * Open [Discord Developer portal](https://discord.com/developers/applications).
 * Click **New Application** in the upper right corner.
@@ -18,7 +22,7 @@ Before setting up, make sure you have a standalone Discord client (**not in brow
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**.&#x20;
+* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**.
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
