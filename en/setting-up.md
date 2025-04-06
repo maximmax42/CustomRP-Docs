@@ -14,7 +14,7 @@ If "Share your activity status" was disabled, you will also need to manually ena
 
 <div align="center"><figure><img src=".gitbook/assets/2025-04-06_18-21-51_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/2025-04-06_18-22-23_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure></div>
 
-***
+## Setup process
 
 * Open [Discord Developer portal](https://discord.com/developers/applications).
 * Click **New Application** in the upper right corner.
