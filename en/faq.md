@@ -48,11 +48,11 @@ Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, sta
 
 Make sure you have enabled activity status in Discord settings:
 
-![image](https://github.com/maximmax42/CustomRP-Docs/assets/2225711/a1b8cb1e-7f88-4061-b297-2691523718a5)
+![image](.gitbook/assets/2025-04-06_18-21-01_Activity_Privacy__User_Settings_-_Discord.png)
 
 If "Share your activity status" was disabled, you will also need to manually enable "Activity status" setting in privacy settings for every server with over 200 members you're in.
 
-<div><figure><img src=".gitbook/assets/2025-04-06_18-16-00_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/2025-04-06_18-21-51_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/2025-04-06_18-22-23_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure></div>
 
 ### The app was working, but now it's connecting indefinitely.
 
