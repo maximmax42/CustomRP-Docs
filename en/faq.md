@@ -6,6 +6,10 @@ description: Please stop asking me the same questions in the server.
 
 ## Questions
 
+### Why don't buttons work?
+
+This is a bug within Discord. You can't see your own buttons, others can but can't click on them. I have no idea if Discord will fix this.
+
 ### Is this a virus? My antivirus/VirusTotal/etc says there's a virus.
 
 No. CustomRP doesn't contain any viruses, the source code is available for everyone to check.
