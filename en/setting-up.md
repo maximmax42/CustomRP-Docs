@@ -31,7 +31,7 @@ If "Share your activity status..." was disabled, you will also need to manually 
   * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the other fields (everything except Type is optional):
   * **Type**: The type of the presence.
-    * Using any type other than Playing disables the Party count. Competing type also disables timestamps as they're only seen on mobile.
+    * Using any type other than Playing disables the Party count. Competing type also disables timestamps.
   * **Details**: First line in the presence under the app name.
   * **State**: Second line in the presence. Will be first if Details is empty.
   * **Party**: Shows up as `(X of Y)` after State line.
