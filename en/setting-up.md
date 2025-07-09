@@ -45,7 +45,7 @@ If "Share your activity status..." was disabled, you will also need to manually 
         * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
         * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
     * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
-  * **Buttons**: ⚠ Please note, there is currently a Discord bug which makes buttons basically useless - you can't see your own buttons, other people can but can't click on them.
+  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons, but others will see them.
     * **Text**: A text displayed on the button.
     * **URL**: A URL that the button will open upon clicking.
 * Hit **Update Presence** (or **Connect** if you aren't already connected).

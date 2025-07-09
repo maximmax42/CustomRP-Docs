@@ -6,9 +6,9 @@ description: Please stop asking me the same questions in the server.
 
 ## Questions
 
-### Why don't buttons work?
+### Why don't my buttons show?
 
-This is a bug within Discord. You can't see your own buttons, others can but can't click on them. I have no idea if Discord will fix this.
+This is a bug within Discord. You can't see your own buttons, but others will see them.
 
 ### Is this a virus? My antivirus/VirusTotal/etc says there's a virus.
 
