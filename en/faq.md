@@ -50,13 +50,11 @@ Kill the app in the Task Manager, delete `%localappdata%\maximmax42` folder, sta
 
 ### The app has connected, but I don't see the status in my profile.
 
-Make sure you have enabled activity status in Discord settings:
+Make sure you have enabled sharing your activity in Discord settings:
 
-![image](.gitbook/assets/2025-04-06_18-21-01_Activity_Privacy__User_Settings_-_Discord.png)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-If "Share your activity status..." was disabled, you will also need to manually enable "Activity status" setting in privacy settings for every server with over 200 members you're in:
-
-<div><figure><img src=".gitbook/assets/2025-04-06_18-21-51_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/2025-04-06_18-22-23_#readme__CustomRP_-_Discord.png" alt=""><figcaption></figcaption></figure></div>
+If sharing with servers was disabled, don't forget to choose what servers you want to share your activity in under "My Servers".
 
 ### The app was working, but now it's connecting indefinitely.
 
