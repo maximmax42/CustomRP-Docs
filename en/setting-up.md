@@ -14,40 +14,52 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
 
 ## Setup process
 
+* Press the **Connect** button to test the connection. Your status in Discord should now say "Playing **CustomRP**". In case of errors, check [FAQ](faq.md). You can optionally disconnect afterwards.
+  * The status will not show if you're in invisible mode.
+  * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
+* Now you can fill the fields (everything except Type and Display is optional):
+  * **ID**: Not needed unless you want to upload images as assets (see [Advanced setup](#advanced-setup)).
+  * **Type**: The type of the presence.
+    * Using any type other than Playing disables the Party count. Competing type also disables timestamps.
+  * **Display**: Controls which field is displayed in your status text in the members list.
+  * **Name**: Name of the activity.
+    * Defaults to CustomRP if no ID is set, or to the name you've given to your application on the portal.
+  * **Details**: First line in the presence under the app name.
+    * **URL**: A link that will open when user clicks on Details text.
+  * **State**: Second line in the presence. Will be first if Details is empty.
+    * **URL**: A link that will open when user clicks on State text.
+  * **Party**: Shows up as `(X of Y)` after State line.
+  * **Timestamp**: A timer that counts from and/or to a specific timestamp. Displayed below Details and State as `(hh:)mm:ss`.
+    * Setting both start and end timestamps in the Listening or Watching presence type will show a progress bar.
+  * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one. If only small one is present, it will show up like a big image, but will be circular instead of a rounded rectangle.
+    * **Key**: If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to use images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
+      * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
+    * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
+    * **URL**: A link that will open when user clicks on the image.
+  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons, but others will see them.
+    * **Text**: A text displayed on the button.
+    * **URL**: A URL that the button will open upon clicking.
+* Hit **Update Presence** (or **Connect** if you disconnected before).
+* Congratulations, you're wonderful!
+
+### Advanced setup
+
+If you want to upload your image to Discord Developer portal or want to have your own application ID for other reasons, do the following:
+
 * Open [Discord Developer portal](https://discord.com/developers/applications).
 * Click **New Application** in the upper right corner.
 
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Copy the **Application ID** and paste it in Custom RP field **ID**, then press **Connect**.
+* Copy the **Application ID** and paste it in **ID** field.
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
-* If done correctly, your status in Discord should now say "Playing **\[name of the app]**". In case of errors, check [FAQ](faq.md).
-  * The status will not show if you're in invisible mode.
-  * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
-* Now you can fill the other fields (everything except Type is optional):
-  * **Type**: The type of the presence.
-    * Using any type other than Playing disables the Party count. Competing type also disables timestamps.
-  * **Details**: First line in the presence under the app name.
-  * **State**: Second line in the presence. Will be first if Details is empty.
-  * **Party**: Shows up as `(X of Y)` after State line.
-    * If State is empty, Party count will not be shown on mobile, but will on PC. If both Party and State are present, they'll show at the bottom of the presence on PC.
-  * **Timestamp**: A timer that counts from a specific timestamp. Displayed below Details and State as `(hh:)mm:ss`.
-  * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one.
-    * **Key**: Either a direct URL (preferred, as you can also use GIFs that way) or an Art Asset name.
-      * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to upload images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
-        * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
-      * _Art Asset method:_ On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
-        * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
-        * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
-    * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
-  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons, but others will see them.
-    * **Text**: A text displayed on the button.
-    * **URL**: A URL that the button will open upon clicking.
-* Hit **Update Presence** (or **Connect** if you aren't already connected).
-* Congratulations, you're wonderful!
+* To upload your images as assets: on your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in **File** menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly. Use the asset name in the image's **Key** field.
+  * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
+  * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
+* If you upload an app icon (General Information page), it will be used as the large image in case it's not set in CustomRP. This also makes it impossible to have a circular big image.
 
 ### I use more than one Discord client, what do I do?
 
@@ -57,11 +69,11 @@ Please note that if you have multiple Discord clients run on startup, pipe numbe
 
 If you have 2 accounts that you use at the same time and want for each of them to have a different presence, then follow these steps:
 
-* Set up your main account first with the instructions above.
+* Set up your first account with the instructions above.
 * Grab the latest **portable (.zip)** version of CustomRP (either from [website](https://www.customrp.xyz) or [GitHub releases page](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) and unpack it anywhere.
   * This only works with versions 1.16 and newer.
 * Open `Start Second Instance.bat` or create a shortcut to CustomRP.exe with an argument `--second-instance` (or `-2`).
-* Set up the program the same way you did your main instance.
+* Set up the program the same way you did your first instance.
   * Tip: If you already have a preset you would want to use with your second instance, you can edit the bat file or the shortcut to include the path to the preset. Example: `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (quotation marks around the path are necessary if the path has spaces in it).
 * Before connecting, change the pipe as described earlier and connect.
 
@@ -70,4 +82,3 @@ If you use 3 or more accounts at the same time, then... why? But also if enough 
 ## Notes
 
 * If you don't want to set up small or large image, leave all related fields in the program blank.
-* If large image is not set, small image settings will be ignored.
