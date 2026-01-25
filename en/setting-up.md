@@ -19,6 +19,7 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
   * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the fields (everything except Type and Display is optional):
   * **ID**: Not needed unless you want to upload images as assets (see [Advanced setup](#advanced-setup)).
+    * This field can only be changed when you're not connected!
   * **Type**: The type of the presence.
     * Using any type other than Playing disables the Party count. Competing type also disables timestamps.
   * **Display**: Controls which field is displayed in your status text in the members list.
