@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏠 Acceuil](README.md)
-* [🛠️ Mise en Place](setting-up.md)
-* [❓ FAQ](faq.md)
-* [⭐ Credits](credits.md)
+* [🏠 Accueil](README.md)
+* [🛠️ Configuration](setting-up.md)
+* [❓ Foire Aux Questions](faq.md)
+* [⭐ Crédits](credits.md)

@@ -1,71 +1,94 @@
 ---
-description: Question posées fréquement
+description: Questions fréquemment posées. (Arrêtez de les poser...)
 ---
 
-# ❓ FAQ
+# ❓ Foire Aux Questions
 
-{% hint style="warning" %}
-Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) pour obtenir les informations les plus récentes.
-{% endhint %}
+<!-- {% hint style="warning" %}
+Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://docs.customrp.xyz/faq) pour obtenir les informations les plus récentes.
+{% endhint %} -->
 
 ## Questions
 
+### Pourquoi mes boutons ne s'affichent-ils pas ?
+
+C'est un bug dans Discord. Vous ne pouvez pas voir vos propres boutons, mais les autres les verront.
+
+### Est-ce un virus ? Mon antivirus/VirusTotal/etc dit qu'il y a un virus.
+
+Non. CustomRP ne contient aucun virus, le code source est disponible pour tout le monde.
+
+Vous vous demandez peut-être pourquoi certains antivirus et VirusTotal signalent un virus ? C'est principalement parce que mon application n'est pas assez populaire pour être considérée comme fiable par Windows et certains antivirus, et n'est pas signée avec un certificat de signature de code (comme je suis russe, je ne peux actuellement même pas en acheter un, et si je le pouvais, ils sont assez chers...)
+
 ### Puis-je ajouter plus de 2 boutons ?
 
-Non, c'est une limite instaurée par Discord.
+Non, c'est une limitation de Discord.
 
-### Puis-je utiliser un autre type d'activité (Ex: écoute, regarde, diffuse) ?
+### Puis-je utiliser un type d'activité Streaming ?
 
-Non, c'est aussi une limite instaurée par Discord.
+Non, c'est également une limitation de Discord.
 
-### Pourquoi si je définis un horodatage quelques jours dans le futur, Discord n'affiche que le nombre d'heures restantes ?
+### Pourquoi si je définis une date dans quelques jours, Discord n'affiche-t-il que le nombre d'heures restantes ?
 
-Vous l'avez deviné, c'est encore une limite instaurée par Dicord.
+Vous l'avez deviné, c'est aussi une limitation de Discord.
 
 ### Y aura-t-il une version Linux/Mac ?
 
-L'application est construite à l'aide d'une bibliothèque Windows uniquement. Par conséquent, la prise en charge de Linux et Mac signifierait la réécriture de l'application entière dans une bibliothèque/langage de codage différent. Ce que je ne prévois pas encore.
+L'application est construite avec une bibliothèque Windows uniquement, donc supporter Linux et Mac signifierait réécrire l'application entière dans une bibliothèque/langage de programmation différent, ce que je ne prévois pas pour l'instant.
 
-### Une fenêtre appelée "Pipe" s'est ouverte pour une raison quelconque, qu'est-ce que c'est ?
+### Une fenêtre appelée « Pipe » s'est ouverte pour une raison quelconque, qu'est-ce que c'est ?
 
-Il s'est ouvert car vous avez appuyé sur Ctrl + Maj et cliqué sur le bouton Connecter (ou sur le bouton Ctrl et Connecter ou Reconnecter dans le menu de l'icône de la barre d'état sur les anciennes versions). Laissez-le à -1 et fermez-le. Il est utilisé dans les situations où plusieurs clients Discord s'exécutent en même temps. Changer le numéro de canal choisit efficacement le client dans lequel vous souhaitez que votre présence soit.
+Elle s'est ouverte parce que vous avez appuyé sur Ctrl+Shift et cliqué sur le bouton Connexion (ou Ctrl et le bouton Connexion, ou Reconnexion dans le menu de l'icône de la barre des tâches sur les anciennes versions). Laissez-la à -1 et fermez-la. Elle est utilisée lorsque vous avez plusieurs clients Discord ouverts en même temps. Changer le numéro de pipe permet de choisir sur quel client votre présence doit apparaître.
 
 ## Dépannage
 
-Avant d'essayer quoi que ce soit, assurez-vous d'être sur la dernière version de CustomRP !
-
-### Quand je clique sur les boutons de présence dans mon profil, ils ne fonctionnent pas.
-
-Les boutons ne fonctionneront pas pour vous sur le bureau avec lequel vous utilisez CustomRP, c'est une bizarrerie de Discord. Vous pouvez tester vos boutons à partir d'un téléphone ou Web, ou simplement demandez à quelqu'un d'autre à la place.
+Avant d'essayer quoi que ce soit, assurez-vous que vous utilisez la dernière version de CustomRP !
 
 ### J'ai installé CustomRP mais il ne démarre pas.
 
-C'est probablement votre antivirus qui empêche le lancement de l'application. Ajoutez le dossier `%appdata%\CustomRP` aux exceptions.
+C'est très probablement votre antivirus qui empêche l'application de se lancer. Ajoutez le dossier `%appdata%\CustomRP` aux exceptions.
 
-### J'ai installé CustomRP, autorisé les analyses et l'application ne fonctionne plus.
+### J'ai installé CustomRP, autorisé l'analyse et l'application ne fonctionne plus.
 
-Arrêtez l'application dans le gestionnaire de tâches, supprimez le dossier `%localappdata%\maximmax42`, redémarrez l'application et n'autorisez pas les analyses.
+Fermez l'application dans le Gestionnaire des tâches, supprimez le dossier `%localappdata%\maximmax42`, redémarrez l'application et n'autorisez pas l'analyse.
 
-### L'application s'est connectée, mais je ne vois pas l'état dans mon profil
+### L'application s'est connectée, mais je ne vois pas le statut dans mon profil.
 
-Assurez-vous d'avoir activé le statut d'activité dans les paramètres Discord :
+Assurez-vous d'avoir activé le partage de votre activité dans les paramètres Discord :
 
-<figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Confidentialité_Des_Activités_ACCOUNT.png" alt=""><figcaption></figcaption></figure>
+
+Si le partage avec les serveurs a été désactivé, n'oubliez pas de choisir les serveurs sur lesquels vous souhaitez partager votre activité dans la sous-catégorie « Mes serveurs ».
 
 ### L'application fonctionnait, mais maintenant elle se connecte indéfiniment.
 
-Vous avez peut-être obtenu un délai d'attente de Discord en raison de la connexion/du changement de présence. Déconnectez-vous, attendez 5 à 10 minutes, essayez de vous reconnecter. Redémarrer Discord pourrait également aider.
+Vous avez peut-être reçu un délai d'attente de Discord parce que vous vous connectez/changez de présence beaucoup. Déconnectez-vous, attendez 5-10 minutes, essayez de vous reconnecter. Redémarrer Discord pourrait également aider.
 
-### L'application indique "Mauvaise ID ?"/"Est-ce que Discord est en cours d'exécution ?" ou se connecte indéfiniment même si je suis sûr d'avoir tout fait correctement et que Discord fonctionne.
+### L'application dit « Mauvais ID ? » / « Discord est-il en cours d'exécution ? » ou se connecte indéfiniment bien que je sois sûr d'avoir tout fait correctement et que Discord soit en cours d'exécution.
 
-Parfois, cela est causé par BetterDiscord. Si vous l'avez installé, désinstallez-le, laissez CustomRP se connecter à Discord au moins une fois, puis réinstallez BD. Si ce n'est pas le cas, essayez d'exécuter CustomRP en tant qu'administrateur. Si cela ne vous aide pas, essayez d'ajouter `%appdata%\CustomRP` ou, si vous utilisez une version portable, le dossier dans lequel vous avez extrait CustomRP (et peut-être Discord) aux exceptions de pare-feu/antivirus, puis redémarrez votre PC (vous pouvez essayer de redémarrer uniquement Discord et CustomRP, mais dans 95% des cas, cela ne fonctionne pas). Une autre chose que vous pouvez essayer est de quitter temporairement tous les clients Discord sauf votre principal. Si cela ne vous aide pas, je n'ai jamais pu comprendre ce qui cause cela, désolé.
+Voici quelques choses que vous pouvez essayer :
 
-### L'application fonctionnait auparavant, mais maintenant elle plante et elle ne se lance plus du tout.
+* **Assurez-vous que vous exécutez l'application Discord (pas dans le navigateur).**
+* Redémarrez votre PC. Conseil : redémarrer le PC résout beaucoup de problèmes.
+* Si vous avez BetterDiscord/Vencord/etc installé, désinstallez-le, laissez CustomRP se connecter à Discord au moins une fois, puis réinstallez-le.
+* Si vous utilisez plusieurs clients Discord, quittez temporairement tous sauf celui sur lequel vous souhaitez que la présence apparaisse.
+* Exécutez CustomRP en tant qu'administrateur.
+* Ajoutez le dossier `%appdata%\CustomRP` ou, dans le cas où vous utilisez une version portable, le dossier dans lequel vous avez extrait CustomRP, aux exceptions du pare-feu et/ou de l'antivirus, puis redémarrez complètement votre PC.
+  * Si vous ne savez pas si vous avez un antivirus ou non, vous en avez très probablement un - Windows Defender est sur tous les ordinateurs Windows 10/11.
+* Réinstallez Discord.
 
-Vous avez peut-être inséré une longue chaîne de texte fantaisiste (ou du texte dans une langue qui utilise des lettres non latines) dans un champ et cela a planté l'application. Pour résoudre ce problème, appuyez sur Win + R, tapez `% localappdata% \ maximmax42` et supprimez ou renommez les dossiers avec CustomRP dans le nom, puis démarrez l'application. Notez que cela réinitialise complètement l'application.
+Si rien n'a aidé, je ne peux rien suggérer d'autre, désolé...
 
-### L'application n'arrête pas de planter lors de la mise à jour/de la tentative de connexion/etc.
+### L'application dit « L'URL d'image est trop longue » ou l'application est bloquée sur « Mise à jour de la présence... »
 
-Si vous parvenez à lancer l'application et à obtenir un rapport de plantage, et qu'il indique `System.IO.FileNotFoundException: Could not load file or assembly...`, veuillez réinstaller l'application.
+Vérifiez les URL des images, elles sont soit trop longues, soit n'ont pas réellement de liens directs.
 
-Si vous ne trouvez pas de réponse à votre question/problème, envoyez un message au salon `#support` sur le serveur Discord de [CustomRP](https://www.customrp.xyz/discordserver) ou bien envoyez un message à maximmax42#5572 sur Discord ou [Ouvrir un Sujet](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+### L'application fonctionnait auparavant, mais ensuite elle s'est plantée et maintenant elle ne se lance pas du tout.
+
+Peut-être avez-vous inséré une longue chaîne de texte fantaisiste (ou du texte dans une langue utilisant des caractères non-latins) dans un champ qui a fait planter l'application. Pour corriger cela, appuyez sur Win+R, tapez `%localappdata%\maximmax42` et supprimez ou renommez les dossiers contenant CustomRP, puis démarrez l'application. Notez que cela réinitialise complètement l'application.
+
+### L'application continue de planter lors de la mise à jour/tentative de connexion/etc.
+
+Si vous pouvez lancer l'application et obtenir un rapport de plantage, et qu'il dit `System.IO.FileNotFoundException: Could not load file or assembly...`, veuillez réinstaller l'application.
+
+**Si vous ne trouvez pas de réponse à votre question/problème, envoyez un message à un canal `#support` sur [le serveur Discord CustomRP](https://www.customrp.xyz/discordserver), envoyez un message à maximmax42 sur Discord ou [ouvrez une issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose)**.

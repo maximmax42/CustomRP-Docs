@@ -1,62 +1,91 @@
 ---
-description: Lisez le putain de manuel. (Bordel.)
+description: Lisez le putain de manuel !!
 ---
 
-# 🛠️ Mise en Place
+# 🛠️ Configuration
 
-{% hint style="warning" %}
-Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) pour obtenir les informations les plus récentes.
-{% endhint %}
+<!-- {% hint style="warning" %}
+Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://docs.customrp.xyz/setting-up) pour obtenir les informations les plus récentes.
+{% endhint %} -->
 
-Si vous rencontrez des erreurs, consultez [FAQ](faq.md).
 
-Avant la configuration, assurez-vous d'avoir activé le statut d'activité dans les paramètres Discord:
+Si vous rencontrez des erreurs, consultez la page [FAQ](faq.md).
 
-<figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
+Avant de configurer, assurez-vous d'avoir l'application Discord (**pas dans le navigateur**) et d'avoir activé le partage de votre activité dans les paramètres:
 
-## Procédure de Mise en Place
+<figure><img src=".gitbook/assets/Confidentialité_Des_Activités_ACCOUNT.png" alt=""><figcaption></figcaption></figure>
 
-* Aller sur https://discord.com/developers/applications/. (Le site n'est pas en français.)
-* Cliquer **New Application** en haut à droite.
+Si le partage avec les serveurs est désactivé, n'oubliez pas de choisir les serveurs avec lesquels vous souhaitez partager votre activité dans la sous-catégorie « Mes serveurs ».
 
-![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
+## Processus d'installation
 
-* Choisir un nom pour l'application, il sera affiché après "En train de jouer" dans le statut ; appuyez sur **Create**.
-* Copiez **l'ID d'application (APPLICATION ID)** et collez-le dans le logiciel CustomRP dans **ID**, puis appuyez sur **Connecter**. Si cela est fait correctement, votre statut dans Discord devrait maintenant indiquer "En train de jouer **\[nom de l'application]**".
-  * Remarque : Si vous avez défini un statut personnalisé (celui avec emoji), il sera prioritaire par rapport à celui de votre CustomRP. Il sera cependant visible dans la fenêtre contextuelle du profil.
+* Appuyez sur le bouton **Connexion** pour tester la connexion. Votre statut dans Discord devrait maintenant indiquer « Joue à **CustomRP** ». En cas d'erreurs, consultez la page [FAQ](faq.md). Vous pouvez éventuellement vous déconnecter ensuite.
+  * Le statut ne s'affichera pas si vous êtes en mode invisible.
+  * Si vous avez défini un statut personnalisé (celui avec un emoji), il sera prioritaire sur celui de CustomRP. Le statut CustomRP restera visible sur le profil.
+* Vous pouvez maintenant remplir les champs (tout est optionnel, sauf Type et Display) :
+  * **ID** : Non nécessaire sauf si vous souhaitez télécharger des images en tant qu'assets sur le portail développeur (voir [Configuration avancée](#advanced-setup)).
+    * Ce champ ne peut être modifié que lorsque vous êtes déconnecté !
+  * **Type** : Le type d'action'.
+    * L'utilisation d'un type autre que Playing désactive le compteur Party. Le type Competing désactive également les timestamps.
+  * **Display** : Contrôle quel champ est affiché dans le texte de votre statut dans la liste des membres.
+  * **Name** : Nom de l'activité.
+    * Par défaut : CustomRP si aucun ID n'est défini, ou le nom que vous avez donné à votre application sur le portail.
+  * **Details** : Première ligne sous le Name.
+    * **URL** : Un lien qui s'ouvrira lorsque l'utilisateur cliquera sur le texte Details.
+  * **State** : Deuxième ligne sous le Name (sera la première si Details est vide).
+    * **URL** : Un lien qui s'ouvrira lorsque l'utilisateur cliquera sur le texte State.
+  * **Party** : S'affiche comme « (X of Y) » après la ligne State.
+  * **Timestamp** : Un minuteur qui compte depuis et/ou jusqu'à un timestamp spécifique. Affiché sous Details et State au format « (hh:)mm:ss ».
+    * Définir à la fois les timestamps de début et de fin pour les types Listening ou Watching affichera une barre de progression.
+  * **Grandes et petites images** : Images affichées sur le côté gauche de la présence. Si les deux sont présentes, la petite image est en bas à droite de la grande. Si seule la petite est présente, elle s'affichera comme une grande image, mais sera circulaire au lieu d'un rectangle aux coins arrondis.
+    * **Key** : Si votre image est déjà sur internet, mettez le **lien direct** (généralement obtenu en faisant un clic droit sur l'image et en choisissant « Copier le lien de l'image ») dans le champ. Si votre image est sur votre PC, utilisez un service d'hébergement d'images (par ex. Imgur, ImageShack, etc.). Formats pris en charge : jp(e)g, png, webp, gif.
+      * Il est **déconseillé** d'utiliser des images envoyées dans les DM/channels Discord, leurs liens deviennent trop longs et expirent au bout de 2 semaines.
+      * Si après la connexion vous restez bloqué sur « Updating presence... », il est probable que l'URL soit trop longue ou ne soit pas un lien direct. Si vous êtes sûr que c'est un lien direct, utilisez un raccourcisseur d'URL.
+    * **Text** : Un texte qui apparaît au survol (ou appui long sur mobile) de l'image.
+    * **URL** : Un lien qui s'ouvrira lorsque l'utilisateur cliquera sur l'image.
+  * **Buttons** : ⚠ Notez qu'il existe actuellement un bug Discord : vous ne pouvez pas voir vos propres boutons, mais les autres les verront.
+    * **Text** : Le texte affiché sur le bouton.
+    * **URL** : L'URL que le bouton ouvrira lorsqu'on cliquera dessus.
+* Cliquez sur **Mettre à jour la présence** (ou **Connexion** si vous vous étiez déconnecté auparavant).
+* Félicitations, vous avez réussi !
 
-![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
+### Configuration avancée
 
-* Sur la page de votre application, accédez à Rich Presence -> Art Assets et téléchargez au moins une image sous Rich Presence Assets si vous souhaitez les utiliser. Dans CustomRP, il existe un bouton pratique \*\* Télécharger les ressources \*\* dans le menu Fichier (vous pouvez également utiliser Ctrl + U) qui vous y mènera si votre champ ID est correctement configuré.
-  * Alternativement, vous pouvez simplement insérer une URL vers l'image dans le champ **Clé**.
-  * Remarque : Bien que vous puissiez nommer votre élément avec n'importe quel nom jusqu'à 999 symboles, l'API n'accepte que les noms contenant 256 symboles au maximum.
-* Accédez à la page Visualizer pour configurer les champs \*\* État, Détails, Grande clé d'image, Texte de grande image, Petite clé d'image, Petit texte d'image, Taille de la fête, Party Max \*\*. Tous ces éléments sont facultatifs.
-* Une fois que vous avez trouvé la configuration qui vous convient, copiez les valeurs dans les champs correspondants de CustomRP.
-  * Conseil : Vous pouvez survoler presque n'importe quel contrôle de l'application (y compris la ligne d'étiquettes **Détails**) et une info-bulle s'affichera !
-* Si vous souhaitez également configurer des boutons, remplissez les champs Texte et URL.
-  * Remarque : Lorsque vous cliquerez sur les boutons en votre propre présence, ils ne fonctionneront pas, mais ne vous inquiétez pas, ils fonctionneront pour tout le monde. C'est un problème du côté de Discord.
-* Appuyez sur **Mettre à jour la présence** (ou **Connecter** si vous n'êtes pas déjà connecté).
-* Félicitations, vous êtes merveilleux !
+Si vous souhaitez téléverser votre image sur le portail développeur Discord ou obtenir votre propre ID d'application pour d'autres raisons, procédez comme suit :
+
+* Ouvrez le Portail développeur Discord : https://discord.com/developers/applications.
+* Cliquez sur **Nouvelle Applications** en haut à droite.
+
+<figure><img src=".gitbook/assets/Applications_WEBSITE.png" alt=""><figcaption></figcaption></figure>
+
+* Choisissez un nom pour l'application ; il sera affiché après « Joue à » dans le statut. Cliquez sur **Créer**.
+* Copiez l'**Identifiant d'application**, déconnectez-vous dans l'application puis collez ce que vous avez copié dans le champ **ID**.
+
+<figure><img src=".gitbook/assets/Identifiant_D'application_WEBSITE.png" alt=""><figcaption></figcaption></figure>
+
+* Pour téléverser vos images en tant qu'assets : dans CustomRP, il y a un bouton **Upload Assets** dans le menu **File** (ou Ctrl+U) qui vous y amènera si le champ ID est correctement configuré, puis téléversez au moins une image sous **Ressources Rich Presence**. Utilisez le nom de l'asset dans le champ **Key** de l'image.
+  * Remarque 1 : bien que les images deviennent généralement utilisables instantanément, dans certains cas cela peut prendre **jusqu'à plusieurs heures**.
+  * Remarque 2 : même si vous pouvez nommer votre asset avec un nom allant jusqu'à 999 caractères, l'application n'acceptera que les noms de ***256 caractères maximum**.
+* Si vous téléversez une icône d'application (page General Information), elle sera utilisée comme grande image si aucune grande image n'est définie dans CustomRP. Cela empêche également d'avoir une grande image circulaire.
 
 ### J'utilise plus d'un client Discord, que dois-je faire ?
 
-Si vous avez plus d'un client Discord et que vous souhaitez que votre présence apparaisse sur un compte différent de l'application choisie automatiquement, veuillez appuyer sur **Déconnecter**, puis maintenez les touches Ctrl+Maj de votre clavier et appuyez sur \*_Connecter_ \*. Une fenêtre avec une entrée de nombre apparaîtra, mettez un nombre 1, fermez la fenêtre et appuyez à nouveau sur **Connecter**, sans Ctrl+Maj. Au cas où il s'agirait encore d'un mauvais compte, essayez le numéro 0, puis le 2 et ainsi de suite jusqu'au 9.
+Si vous avez plusieurs clients Discord et que vous souhaitez que votre présence apparaisse sur un compte différent de celui choisi automatiquement par l'application, veuillez appuyer sur **Déconnexion**, puis maintenir les touches Ctrl+Shift enfoncées et appuyer sur **Connexion**. Une fenêtre avec un champ numérique apparaîtra : saisissez le nombre 1, fermez la fenêtre, puis appuyez de nouveau sur **Connexion** sans Ctrl+Shift. Si le compte est encore incorrect, essayez le numéro 0, puis 2, et ainsi de suite jusqu'à 9.
 
-Veuillez noter que si vous avez plusieurs clients Discord exécutés au démarrage, le numéro de canal attribué à chaque client peut ne pas être persistant d'un démarrage à l'autre et peut changer en fonction du client démarré en premier. Pour éviter cela, vous pouvez soit démarrer manuellement des clients supplémentaires, soit utiliser le planificateur de tâches Windows pour retarder le démarrage des clients.
+Veuillez noter que si plusieurs clients Discord démarrent automatiquement au lancement de l'ordinateur, le numéro attribué à chaque client peut ne pas être stable d'un démarrage à l'autre et peut changer selon l'ordre de lancement des clients. Pour éviter cela, vous pouvez soit lancer les clients supplémentaires manuellement, soit utiliser le Planificateur de tâches Windows pour retarder leur démarrage.
 
-Si vous avez 2 comptes que vous utilisez en même temps et que vous souhaitez que chacun d'eux ait une présence différente, suivez ces étapes :
+Si vous utilisez 2 comptes en même temps et voulez que chacun ait une présence différente, suivez ces étapes :
 
-* Commencez par configurer votre compte principal en suivant les instructions ci-dessus.
-* Procurez-vous la dernière version **portable (.zip)** de CustomRP (soit depuis le [site](https://www.customrp.xyz) ou sur [Page des versions de GitHub](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) et déballez-le n'importe où.
-  * Ceci fonctionne seulement avec les versions 1.16 et plus.
-* Ouvrez `Start Second Instance.bat` ou créez un raccourci vers CustomRP.exe avec un argument `--second-instance` (ou `-2`).
-* Configurez le programme de la même manière que vous l'avez fait pour votre instance principale.
-  * Conseil : Si vous disposez déjà d'un préréglage que vous souhaitez utiliser avec votre deuxième instance, vous pouvez modifier le fichier bat ou le raccourci pour inclure le chemin d'accès au préréglage. Exemple : `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (des guillemets autour du chemin sont nécessaires si le chemin contient des espaces).
-* Avant le raccordement, changez le tuyau comme décrit précédemment et raccordez.
+* Configurez votre premier compte en suivant les instructions ci-dessus.
+* Téléchargez la dernière version **portable (.zip)** de CustomRP (depuis le [site web](https://www.customrp.xyz) ou la [page des sorties GitHub](https://github.com/maximmax42/Discord-CustomRP/releases/latest)) et décompressez-la n'importe où.
+  * Ceci ne fonctionne qu'avec les versions 1.16 et supérieures.
+* Ouvrez `Start Second Instance.bat` ou créez un raccourci vers CustomRP.exe avec l'argument `--second-instance` (ou `-2`).
+* Configurez le programme de la même façon que pour la première instance.
+  * Astuce : si vous avez déjà un preset que vous souhaitez utiliser avec la deuxième instance, vous pouvez modifier le fichier .bat ou le raccourci pour inclure le chemin vers le preset. Exemple : `CustomRP.exe -2 "C:\Some Folder\preset.crp"` (les guillemets autour du chemin sont nécessaires si celui-ci contient des espaces).
+* Avant de vous connecter, changez le pipe comme décrit précédemment et connectez-vous.
 
-Si vous utilisez 3 comptes ou plus en même temps, alors... pourquoi ? Mais aussi, si vous êtes assez nombreux à me harceler, j'ajouterai un support pour utiliser plus d'instances.
+Si vous utilisez 3 comptes ou plus en même temps, alors... pourquoi ? Mais si suffisamment de personnes le demandent, j'ajouterai la prise en charge de plusieurs instances.
 
 ## Notes
 
-* Si vous ne souhaitez pas configurer une petite ou une grande image, laissez tous les champs associés vides dans le programme.
-* Si la grande image n'est pas définie, les paramètres de la petite image seront ignorés.
+* Si vous ne souhaitez pas configurer de petite ou grande image, laissez tous les champs associés vides dans le programme.
