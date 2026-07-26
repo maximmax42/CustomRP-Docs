@@ -4,6 +4,10 @@ description: Questions fréquemment posées. (Arrêtez de les poser...)
 
 # ❓ Foire Aux Questions
 
+<!-- {% hint style="warning" %}
+Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://docs.customrp.xyz/faq) pour obtenir les informations les plus récentes.
+{% endhint %} -->
+
 ## Questions
 
 ### Pourquoi mes boutons ne s'affichent-ils pas ?
