@@ -32,6 +32,7 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
   * **Party**: Shows up as `(X of Y)` after State line.
   * **Timestamp**: A timer that counts from and/or to a specific timestamp. Displayed below Details and State as `(hh:)mm:ss`.
     * Setting both start and end timestamps in the Listening or Watching presence type will show a progress bar.
+    * The earliest date you can set is January 1st, 1970, 00:00:01 UTC, the furthest - November 16th, 5138, 09:46:39 UTC.
   * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one. If only small one is present, it will show up like a big image, but will be circular instead of a rounded rectangle.
     * **Key**: If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). Supported formats: jp(e)g, png, webp, gif.
       * It's **not recommended** to use images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
