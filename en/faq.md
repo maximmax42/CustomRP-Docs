@@ -24,10 +24,6 @@ No, it's a limitation of Discord.
 
 No, it's also a Discord limitation.
 
-### Why if I set a timestamp couple days in the future, Discord only shows how many hours left?
-
-You guessed it, it's also a Discord limitation.
-
 ### Will there be Linux/Mac version?
 
 The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
