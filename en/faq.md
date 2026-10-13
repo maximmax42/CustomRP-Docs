@@ -8,7 +8,9 @@ description: Please stop asking me the same questions in the server.
 
 ### Why don't my buttons show?
 
-This is a bug within Discord. You can't see your own buttons, but others will see them.
+This is a bug in Discord. You can't see your own buttons in your profile, but others will see them.
+
+You can see your buttons if you join a voice chat and hover over yourself in the voice chat members.
 
 ### Is this a virus? My antivirus/VirusTotal/etc says there's a virus.
 

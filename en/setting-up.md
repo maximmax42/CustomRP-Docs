@@ -39,7 +39,7 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
       * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
     * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
     * **URL**: A link that will open when user clicks on the image.
-  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons, but others will see them.
+  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons in the profile, but others will see them. You can see your buttons if you join a voice chat and hover over yourself in the voice chat members.
     * **Text**: A text displayed on the button.
     * **URL**: A URL that the button will open upon clicking.
 * Hit **Update Presence** (or **Connect** if you disconnected before).
