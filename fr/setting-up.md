@@ -4,10 +4,9 @@ description: Lisez le putain de manuel !!
 
 # 🛠️ Configuration
 
-<!-- {% hint style="warning" %}
+{% hint style="warning" %}
 Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://docs.customrp.xyz/setting-up) pour obtenir les informations les plus récentes.
-{% endhint %} -->
-
+{% endhint %}
 
 Si vous rencontrez des erreurs, consultez la page [FAQ](faq.md).
 
