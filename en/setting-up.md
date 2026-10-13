@@ -55,7 +55,7 @@ If you want to upload your image to Discord Developer portal, have an icon next 
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
-* Optionally, upload an **App Icon** that will be used as the icon next to your name in voice chats. It will also be used as the large image in case none is set in CustomRP,and makes it impossible to have a circular big image.
+* Optionally, upload an **App Icon** that will be used as the icon next to your name in voice chats. It will also be used as the large image in case none is set in CustomRP, and makes it impossible to have a circular big image.
 * Copy the **Application ID**, disconnect in the app and paste what you copied into **ID** field.
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
