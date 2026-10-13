@@ -47,7 +47,7 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
 
 ### Advanced setup
 
-If you want to upload your image to Discord Developer portal or want to have your own application ID for other reasons, do the following:
+If you want to upload your image to Discord Developer portal, have an icon next to your name in voice chats, or have your own application ID for other reasons, do the following:
 
 * Open [Discord Developer portal](https://discord.com/developers/applications).
 * Click **New Application** in the upper right corner.
@@ -55,6 +55,7 @@ If you want to upload your image to Discord Developer portal or want to have you
 ![](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
+* Optionally, upload an **App Icon** that will be used as the icon next to your name in voice chats. It will also be used as the large image in case none is set in CustomRP,and makes it impossible to have a circular big image.
 * Copy the **Application ID**, disconnect in the app and paste what you copied into **ID** field.
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
@@ -62,7 +63,6 @@ If you want to upload your image to Discord Developer portal or want to have you
 * To upload your images as assets: on your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in **File** menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly. Use the asset name in the image's **Key** field.
   * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
   * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
-* If you upload an app icon (General Information page), it will be used as the large image in case it's not set in CustomRP. This also makes it impossible to have a circular big image.
 
 ### I use more than one Discord client, what do I do?
 

@@ -26,6 +26,10 @@ No, it's a limitation of Discord.
 
 No, it's also a Discord limitation.
 
+### Why is there a question mark next to my name in a voice chat?
+
+You need to create a custom application on the Developer Portal and upload an App Icon. See [Advanced Setup](setting-up.md#advanced-setup).
+
 ### Will there be Linux/Mac version?
 
 The app is built using a Windows-only library, therefore supporting Linux and Mac would mean rewriting whole app in a different library/coding language which I'm not planning just yet.
