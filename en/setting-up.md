@@ -19,12 +19,11 @@ If sharing with servers was disabled, don't forget to choose what servers you wa
   * If you have a custom status set (the one with emoji), it will be prioritized over your CustomRP one. CustomRP status will be seen in the profile popup though.
 * Now you can fill the fields (everything except Type and Display is optional):
   * **ID**: Not needed unless you want to upload images as assets to Developer portal (see [Advanced setup](#advanced-setup)).
-    * This field can only be changed when you're not connected!
   * **Type**: The type of the presence.
     * Using any type other than Playing disables the Party count. Competing type also disables timestamps.
   * **Display**: Controls which field is displayed in your status text in the members list.
   * **Name**: Name of the activity.
-    * Defaults to CustomRP if no ID is set, or to the name you've given to your application on the portal.
+    * Defaults to "CustomRP" if no ID is set, or to the name you've given to your application on the portal.
   * **Details**: First line in the presence under the app name.
     * **URL**: A link that will open when user clicks on Details text.
   * **State**: Second line in the presence. Will be first if Details is empty.
@@ -56,7 +55,7 @@ If you want to upload your image to Discord Developer portal, have an icon next 
 
 * Choose the name for the application, it will be displayed after "Playing" in the status; hit **Create**.
 * Optionally, upload an **App Icon** that will be used as the icon next to your name in voice chats. It will also be used as the large image in case none is set in CustomRP, and makes it impossible to have a circular big image.
-* Copy the **Application ID**, disconnect in the app and paste what you copied into **ID** field.
+* Copy the **Application ID** and paste what you copied into **ID** field.
 
 ![](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
