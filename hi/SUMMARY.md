@@ -1,6 +1,6 @@
-# Table of contents
+# विषय-सूची
 
-* [🏠 शुरू](README.md)
-* [🛠️ व्यवस्था](setting-up.md)
-* [❓ अक्सर पूछे जाने वाले प्रश्नों](faq.md)
-* [⭐ सम्मान](credits.md)
+* [🏠 मुख्य पृष्ठ](README.md)
+* [🛠️ सेटअप](setting-up.md)
+* [❓ अक्सर पूछे जाने वाले प्रश्न](faq.md)
+* [⭐ श्रेय](credits.md)
